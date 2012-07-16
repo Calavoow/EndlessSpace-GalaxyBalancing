@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GalaxyShapes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <GalaxyShape Name="GalaxySpiral8"
+              DensityMap="Density/GalaxySpiral8_Density.png"
+              RegionMap="Regions/GalaxySpiral8_Regions.png"
+              MinConstellations="9"
+              MaxConstellations="17"
+              MinEmpires="2"
+              MaxEmpires="8">
+    <SymetryOptions>
+      <SymetryOption PlayerNum="2"/>
+      <SymetryOption PlayerNum="4"/>
+      <SymetryOption PlayerNum="8"/>
+    </SymetryOptions>
+    <Regions>
+      <Region color="#FFFFFF" empirestart="0"/>
+      <Region color="#FFFF00" empirestart="1"/><!-- yellow -->
+      <Region color="#00FFFF" empirestart="1"/><!-- teal -->
+      <Region color="#008080" empirestart="1"/><!-- dark-teal -->
+      <Region color="#FF00FF" empirestart="1"/><!-- pink -->
+      <Region color="#800080" empirestart="1"/><!-- purple -->
+      <Region color="#0000FF" empirestart="1"/><!-- blue -->
+      <Region color="#00FF00" empirestart="1"/><!-- green -->
+      <Region color="#FF0000" empirestart="1"/><!-- red -->
+    </Regions>
+    <Topology>
+      <Link RegionA="#FFFF00" RegionB="#FFFFFF"/>
+      <Link RegionA="#FF0000" RegionB="#FFFFFF"/>
+      <Link RegionA="#FF00FF" RegionB="#FFFFFF"/>
+      <Link RegionA="#0000FF" RegionB="#FFFFFF"/>
+      <Link RegionA="#00FFFF" RegionB="#FFFFFF"/>
+      <Link RegionA="#00FF00" RegionB="#FFFFFF"/>
+      <Link RegionA="#008080" RegionB="#FFFFFF"/>
+      <Link RegionA="#800080" RegionB="#FFFFFF"/>
+    </Topology>
+    <GalaxyViewLayout Path="Prefabs/Environment/Galaxy/Galaxy_Spiral8_A" Weight="1"/>
+    <GalaxyViewLayout Path="Prefabs/Environment/Galaxy/Galaxy_Spiral8_C" Weight="1"/>
+    <GalaxyViewLayout Path="Prefabs/Environment/Galaxy/Galaxy_Spiral8_D" Weight="1"/>
+  </GalaxyShape>
+  
+  <GalaxyShape Name="GalaxySpiral4"
+              DensityMap="Density/GalaxySpiral4_Density.png"
+              RegionMap="Regions/GalaxySpiral4_Regions.png"
+              MinConstellations="5"
+              MaxConstellations="9"
+              MinEmpires="2"
+              MaxEmpires="4">
+    <SymetryOptions>
+      <SymetryOption PlayerNum="2"/>
+      <SymetryOption PlayerNum="4"/>
+    </SymetryOptions>
+    <Regions>
+      <Region color="#FFFFFF" empirestart="0"/>
+      <Region color="#FFFF00" empirestart="1"/><!-- yellow -->
+      <Region color="#00FFFF" empirestart="1"/><!-- teal -->
+      <Region color="#008080" empirestart="1"/><!-- dark-teal -->
+      <Region color="#FF00FF" empirestart="1"/><!-- pink -->
+      <Region color="#800080" empirestart="1"/><!-- purple -->
+      <Region color="#0000FF" empirestart="1"/><!-- blue -->
+      <Region color="#00FF00" empirestart="1"/><!-- green -->
+      <Region color="#FF0000" empirestart="1"/><!-- red -->
+    </Regions>
+    <Topology>
+      <Link RegionA="#FF0000" RegionB="#FFFF00"/>
+      <Link RegionA="#0000FF" RegionB="#FF00FF"/>
+      <Link RegionA="#00FF00" RegionB="#00FFFF"/>
+      <Link RegionA="#800080" RegionB="#008080"/>
+      <!-- Link RegionA="#800080" RegionB="#FFFF00"/ -->
+      <!-- Link RegionA="#FFFF00" RegionB="#FF00FF"/ -->
+      <!-- Link RegionA="#FF00FF" RegionB="#00FFFF"/ -->
+      <!-- Link RegionA="#00FFFF" RegionB="#008080"/ -->
+      <Link RegionA="#FFFF00" RegionB="#FFFFFF"/>
+      <Link RegionA="#FF00FF" RegionB="#FFFFFF"/>
+      <Link RegionA="#00FFFF" RegionB="#FFFFFF"/>
+      <Link RegionA="#008080" RegionB="#FFFFFF"/>
+    </Topology>
+    <GalaxyViewLayout Path="Prefabs/Environment/Galaxy/Galaxy_Spiral4_01_A" Weight="1"/>
+    <GalaxyViewLayout Path="Prefabs/Environment/Galaxy/Galaxy_Spiral4_01_B" Weight="1"/>
+  </GalaxyShape>
+
+  <GalaxyShape Name="GalaxySpiral2"
+              DensityMap="Density/GalaxySpiral2_Density.png"
+              RegionMap="Regions/GalaxySpiral2_Regions.png"
+              MinConstellations="2"
+              MaxConstellations="5"
+              MinEmpires="2"
+              MaxEmpires="4">
+    <SymetryOptions>
+      <SymetryOption PlayerNum="2"/>
+      <SymetryOption PlayerNum="4"/>
+    </SymetryOptions>
+    <Regions>
+      <Region color="#FFFFFF" empirestart="0"/>
+      <Region color="#FF0000" empirestart="1"/><!-- red -->
+      <Region color="#008080" empirestart="1"/><!-- dark-teal -->
+      <Region color="#0000FF" empirestart="1"/><!-- blue -->
+      <Region color="#00FFFF" empirestart="1"/><!-- teal -->
+      <Region color="#FF00FF" empirestart="1"/><!-- pink -->
+      <Region color="#00FF00" empirestart="1"/><!-- green -->
+      <Region color="#800080" empirestart="1"/><!-- purple -->
+      <Region color="#FFFF00" empirestart="1"/><!-- yellow -->
+    </Regions>
+    <Topology>
+      <Link RegionA="#FFFF00" RegionB="#FF0000"/>
+      <Link RegionA="#FF0000" RegionB="#FF00FF"/>
+      <Link RegionA="#FF00FF" RegionB="#0000FF"/>
+      <Link RegionA="#00FFFF" RegionB="#00FF00"/>
+      <Link RegionA="#00FF00" RegionB="#008080"/>
+      <Link RegionA="#008080" RegionB="#800080"/>
+      <Link RegionA="#FF0000" RegionB="#FFFFFF"/>
+      <Link RegionA="#FF00FF" RegionB="#FFFFFF"/>
+      <Link RegionA="#0000FF" RegionB="#FFFFFF"/>
+      <Link RegionA="#00FFFF" RegionB="#FFFFFF"/>
+      <Link RegionA="#00FF00" RegionB="#FFFFFF"/>
+      <Link RegionA="#008080" RegionB="#FFFFFF"/>
+    </Topology>
+    <GalaxyViewLayout Path="Prefabs/Environment/Galaxy/Galaxy_Spiral2_C" Weight="1"/>
+    <GalaxyViewLayout Path="Prefabs/Environment/Galaxy/Galaxy_Spiral2_D" Weight="1"/>
+  </GalaxyShape>
+
+  <GalaxyShape Name="GalaxyDisk"
+              DensityMap="Density/GalaxyDisk_Density.png"
+              RegionMap="Regions/GalaxyDisk_Regions.png"
+              MinConstellations="2"
+              MaxConstellations="8"
+              MinEmpires="2"
+              MaxEmpires="8">
+    <SymetryOptions>
+      <SymetryOption PlayerNum="2"/>
+      <SymetryOption PlayerNum="4"/>
+      <SymetryOption PlayerNum="6"/>
+      <SymetryOption PlayerNum="8"/>
+    </SymetryOptions>
+    <Regions>
+      <Region color="#FFFFFF" empirestart="0"/>
+      <Region color="#FFFF00" empirestart="1"/><!-- yellow -->
+      <Region color="#00FFFF" empirestart="1"/><!-- teal -->
+      <Region color="#008080" empirestart="1"/><!-- dark-teal -->
+      <Region color="#FF00FF" empirestart="1"/><!-- pink -->
+      <Region color="#800080" empirestart="1"/><!-- purple -->
+      <Region color="#0000FF" empirestart="1"/><!-- blue -->
+      <Region color="#00FF00" empirestart="1"/><!-- green -->
+      <Region color="#FF0000" empirestart="1"/><!-- red -->
+    </Regions>
+    <Topology>
+      <Link RegionA="#FFFF00" RegionB="#FF0000"/>
+      <Link RegionA="#FF0000" RegionB="#FF00FF"/>
+      <Link RegionA="#FF00FF" RegionB="#0000FF"/>
+      <Link RegionA="#0000FF" RegionB="#00FFFF"/>
+      <Link RegionA="#00FFFF" RegionB="#00FF00"/>
+      <Link RegionA="#00FF00" RegionB="#008080"/>
+      <Link RegionA="#008080" RegionB="#800080"/>
+      <Link RegionA="#800080" RegionB="#FFFF00"/>
+    </Topology>
+    <GalaxyViewLayout Path="Prefabs/Environment/Galaxy/Galaxy_Disk_A" Weight="1"/>
+  </GalaxyShape>
+
+  <GalaxyShape Name="GalaxyDisk4"
+              DensityMap="Density/GalaxyDisk4_Density.png"
+              RegionMap="Regions/GalaxyDisk4_Regions.png"
+              MinConstellations="5"
+              MaxConstellations="9"
+              MinEmpires="2"
+              MaxEmpires="8">
+    <SymetryOptions>
+      <SymetryOption PlayerNum="2"/>
+      <SymetryOption PlayerNum="4"/>
+      <SymetryOption PlayerNum="8"/>
+    </SymetryOptions>
+    <Regions>
+      <Region color="#FFFFFF" empirestart="0"/>
+      <Region color="#FFFF00" empirestart="1"/><!-- yellow -->
+      <Region color="#00FFFF" empirestart="1"/><!-- teal -->
+      <Region color="#008080" empirestart="1"/><!-- dark-teal -->
+      <Region color="#FF00FF" empirestart="1"/><!-- pink -->
+      <Region color="#800080" empirestart="1"/><!-- purple -->
+      <Region color="#0000FF" empirestart="1"/><!-- blue -->
+      <Region color="#00FF00" empirestart="1"/><!-- green -->
+      <Region color="#FF0000" empirestart="1"/><!-- red -->
+    </Regions>
+    <Topology>
+      <Link RegionA="#FFFF00" RegionB="#FF0000"/>
+      <Link RegionA="#FF0000" RegionB="#FF00FF"/>
+      <Link RegionA="#FF00FF" RegionB="#0000FF"/>
+      <Link RegionA="#0000FF" RegionB="#00FFFF"/>
+      <Link RegionA="#00FFFF" RegionB="#00FF00"/>
+      <Link RegionA="#00FF00" RegionB="#008080"/>
+      <Link RegionA="#008080" RegionB="#800080"/>
+      <Link RegionA="#800080" RegionB="#FFFF00"/>
+      <Link RegionA="#FFFF00" RegionB="#FFFFFF"/>
+      <Link RegionA="#FF0000" RegionB="#FFFFFF"/>
+      <Link RegionA="#FF00FF" RegionB="#FFFFFF"/>
+      <Link RegionA="#0000FF" RegionB="#FFFFFF"/>
+      <Link RegionA="#00FFFF" RegionB="#FFFFFF"/>
+      <Link RegionA="#00FF00" RegionB="#FFFFFF"/>
+      <Link RegionA="#008080" RegionB="#FFFFFF"/>
+      <Link RegionA="#800080" RegionB="#FFFFFF"/>
+    </Topology>
+    <GalaxyViewLayout Path="Prefabs/Environment/Galaxy/Galaxy_Disk4_A" Weight="1"/>
+    <GalaxyViewLayout Path="Prefabs/Environment/Galaxy/Galaxy_Disk4_D" Weight="1"/>
+  </GalaxyShape>
+
+  <GalaxyShape Name="GalaxyOvoid"
+              DensityMap="Density/GalaxyOvoid_Density.png"
+              RegionMap="Regions/GalaxyOvoid_Regions.png"
+              MinConstellations="5"
+              MaxConstellations="9"
+              MinEmpires="2"
+              MaxEmpires="8">
+    <SymetryOptions>
+      <SymetryOption PlayerNum="2"/>
+      <SymetryOption PlayerNum="4"/>
+      <SymetryOption PlayerNum="6"/>
+      <SymetryOption PlayerNum="8"/>
+    </SymetryOptions>
+    <Regions>
+      <Region color="#FFFFFF" empirestart="0"/>
+      <Region color="#FFFF00" empirestart="1"/><!-- yellow -->
+      <Region color="#00FFFF" empirestart="1"/><!-- teal -->
+      <Region color="#008080" empirestart="1"/><!-- dark-teal -->
+      <Region color="#FF00FF" empirestart="1"/><!-- pink -->
+      <Region color="#800080" empirestart="1"/><!-- purple -->
+      <Region color="#0000FF" empirestart="1"/><!-- blue -->
+      <Region color="#00FF00" empirestart="1"/><!-- green -->
+      <Region color="#FF0000" empirestart="1"/><!-- red -->
+    </Regions>
+    <Topology>
+      <Link RegionA="#FFFF00" RegionB="#FF0000"/>
+      <Link RegionA="#FF0000" RegionB="#FF00FF"/>
+      <Link RegionA="#FF00FF" RegionB="#0000FF"/>
+      <Link RegionA="#0000FF" RegionB="#00FFFF"/>
+      <Link RegionA="#00FFFF" RegionB="#00FF00"/>
+      <Link RegionA="#00FF00" RegionB="#008080"/>
+      <Link RegionA="#008080" RegionB="#800080"/>
+      <Link RegionA="#800080" RegionB="#FFFF00"/>
+      <Link RegionA="#FFFF00" RegionB="#FFFFFF"/>
+      <Link RegionA="#FF0000" RegionB="#FFFFFF"/>
+      <Link RegionA="#FF00FF" RegionB="#FFFFFF"/>
+      <Link RegionA="#0000FF" RegionB="#FFFFFF"/>
+      <Link RegionA="#00FFFF" RegionB="#FFFFFF"/>
+      <Link RegionA="#00FF00" RegionB="#FFFFFF"/>
+      <Link RegionA="#008080" RegionB="#FFFFFF"/>
+      <Link RegionA="#800080" RegionB="#FFFFFF"/>
+    </Topology>
+    <GalaxyViewLayout Path="Prefabs/Environment/Galaxy/Galaxy_Ovoid_A" Weight="1"/>
+    <GalaxyViewLayout Path="Prefabs/Environment/Galaxy/Galaxy_Ovoid_C" Weight="1"/>
+  </GalaxyShape>
+  
+  <GalaxyShape Name="GalaxyTwinElliptical"
+              DensityMap="Density/GalaxyTwinElliptical_Density.png"
+              RegionMap="Regions/GalaxyTwinElliptical_Regions.png"
+              MinConstellations="9"
+              MaxConstellations="17"
+              MinEmpires="2"
+              MaxEmpires="8">
+    <SymetryOptions>
+      <SymetryOption PlayerNum="2"/>
+      <SymetryOption PlayerNum="4"/>
+      <SymetryOption PlayerNum="8"/>
+    </SymetryOptions>
+    <Regions>
+      <Region color="#FFFFFF" empirestart="0"/>
+      <Region color="#FFFF00" empirestart="1"/><!-- yellow -->
+      <Region color="#FF0000" empirestart="1"/><!-- red -->
+      <Region color="#FF00FF" empirestart="1"/><!-- pink -->
+      <Region color="#0000FF" empirestart="1"/><!-- blue -->
+      <Region color="#00FFFF" empirestart="1"/><!-- teal -->
+      <Region color="#00FF00" empirestart="1"/><!-- green -->
+      <Region color="#008080" empirestart="1"/><!-- dark-teal -->
+      <Region color="#800080" empirestart="1"/><!-- purple -->
+    </Regions>
+    <Topology>
+      <Link RegionA="#FFFF00" RegionB="#FF00FF"/>
+      <Link RegionA="#800080" RegionB="#FF0000"/>
+      <Link RegionA="#00FF00" RegionB="#800080"/>
+      <Link RegionA="#008080" RegionB="#FFFF00"/>
+      <Link RegionA="#00FFFF" RegionB="#FF00FF"/>
+      <Link RegionA="#0000FF" RegionB="#FF0000"/>
+      <Link RegionA="#0000FF" RegionB="#00FF00"/>
+      <Link RegionA="#00FFFF" RegionB="#008080"/>
+      <Link RegionA="#FFFF00" RegionB="#FFFFFF"/>
+      <Link RegionA="#FF0000" RegionB="#FFFFFF"/>
+      <Link RegionA="#FF00FF" RegionB="#FFFFFF"/>
+      <Link RegionA="#800080" RegionB="#FFFFFF"/>
+    </Topology>
+    <GalaxyViewLayout Path="Prefabs/Environment/Galaxy/Galaxy_TwinElliptical_B" Weight="1"/>
+    <GalaxyViewLayout Path="Prefabs/Environment/Galaxy/Galaxy_TwinElliptical_D" Weight="1"/>
+  </GalaxyShape>
+  
+</GalaxyShapes>

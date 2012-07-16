@@ -1,0 +1,123 @@
+
+Requirements
+-------------
+
+OS: Windows XP\2003\Vista\Windows7 or any server variant of same.
+
+Runtimes: The tool requires you have the Microsoft.Net 4.0 runtimes installed on your system, it is highly unlikey
+to work with earlier .net runtime version.  If you don't have the 4.0 runtimes on your system you can insall them
+from microsoft here:
+
+4.0 Full Runtimes link -> http://msdn.microsoft.com/en-us/netframework/aa569263.aspx
+
+(if you wany a slightly striped down version that this app will work with you can try this link ->
+http://www.microsoft.com/en-us/download/details.aspx?id=24872
+)
+
+
+The tool should run fine in a virtual environment.it was built in one.
+
+Installation
+------------
+1. Install the MS.Net 4.0 runtimes if you don't already have them.
+2. Unzip the folder anywhere you like and you're done, 
+
+
+Assumptions: The tool assumes Steam is installed on the system it's running on, or more specifically 
+the following key exits. HKEY_CURRENT_USER\Software\Valve\Steam\SteamPath. 
+It uses this to build a path to find the ES English localization file, If you don't have steam or ES installed
+on the system your useing that's ok as long as you dummy up the folder structure as if you did.  
+Ie create the steam path key and dummy up the folder structure. Example
+[HKEY_CURRENT_USER\Software\Valve\Steam]
+"SteamPath"="c:/temp/games/steam"
+Then under c:\temp\games\steam create the "\steamapps\common\endless space\Public\Localization\english" sub folders
+and place a copy of your localization file in there.
+I've included the dummy structure and a regkey in the steamdummy.zip file in this package.
+
+The tool also assumes you have an "\Endless Space\Save" folder in your profile folder, again if you don't have
+the game installed please dummy that up as needed, as the tool will likely bomb (nicely though) when going to
+save without it. Some day I'll get around to making these two issues go away with configurable options.
+
+Lastly the app assumes it can write to the \ESEditor subfolder whereever the tool was unzipped too when it
+needs to work with temporary copies of files, as well as having access to the folders mentioned above. 
+
+
+Starting and using the tool
+----------------------------
+Double click the ESMapEditor.exe file.
+
+Use the File menu to either load a game file or save a file you are editing.
+The Save buttons and Exit button on the main form duplicate the file\save and file\exit menu options
+they are there just for convenience.
+Once you load a file you can really only do the following at the moment:
+1.Edit system locations using the show map feature or manual chages.
+2.On the Empires tab you can see each player empire’s descriptors, techs and tech elements, 
+(sorry no editing just yet.), but you can set the dust amount for any player.
+
+3.* But dont do this* edit warp and constellation and stat entreies using the GameInfoDBG tab. I'm just explaining it's
+technically possible for those that know what they are looking at in the datagrid. I'm looking to add an interface
+for doing things like that a later date in safe(er) way.
+
+Accessing and using the map screen:
+Once a file is loaded...
+Select a system from the drop down box on the lower left, you should see it load that system’s
+Information to the tab below. The Human player's home system should be shown by default.
+Press the Show Map button and it will load a map screen with the currently selected system shown as a red planet,
+your(player0's) home system marked as a blue earth like Planet and all other star systems show as barren like moons.
+If your home planet is the selected planet it will show as red.
+
+Map screen
+-----------
+Here you can click on a star system to see the basic information about it in a tooltip popup.
+To enable a system to be moved, double click on it.
+To disable a system from being enabled for movement double click it again. (or release the mouse key while CTRL - dragging it.
+To move a system after it’s been enabled for movement hold down CTRL and your Left mouse button key and move the mouse.
+You should see the planet jump and start to follow your mouse. Upon releasing your Left mouse button while ctrl
+is still down will release\set the system to it’s current location. It doesn't matter if your mouse is directly over
+the system when moving or not, where you see the planet icon is where the system is located at. Also be aware
+it's not a great idea to move it around in cicles very fast, it'll probably pain your cpu, cause for every mouse move
+while the system is being moved there are lots of things being done in the background beyond just repainting the screen.
+
+Changing the scale:
+You may notice the map is too small (systems all clumped together), if that's the case you can grab the corner of
+the map screen and make it larger, then change the scale above from 4 to say 5 or 6 and then press REFRESH.
+That *should* scale the map larger to the larger form size.  I've done nearly my best at getting the scaling stuff
+to work, bottomline then if on this screen two planets at 4.0 scale are nearly on top of one another then they are
+about an inch or so appart inside the game (ie really close).
+
+Warps\Constellations\Wormholes options:
+You check or uncheck these options to disable\enable the drawing of the Warp\CosmicString lines (Green), the
+Wormhole lines (Red), or the ConstellationID #'s (Yellow).
+
+AutoUpdate option:
+So normally the intended (default assumption) use of the map screen is for you to have selected a system on the 
+main screen then going to the map screen to change that particular system's location. If you end up updaing 
+muliple systems while on the map screen while those changes have been temporarly saved you'll need to go back
+to the main screen and select each and every planet you modified and clikc "update" - this actually marks your
+current changes to be saved vs. just showing you updated values. In fact the need to press updated in most cases
+is highlight by some green text near the update button if needed but I digress.  Basically if you move around more
+then a couple systems it can be a pain in the ass to go back and press "update" for each of them, assuming you can
+even remember which they were.  If you enable this option, you don't have to do that, every time you move a system
+it not only moved in temporary sense but the changes is actually saved as if you pressed update.  
+
+Why not just do that by default? Safety, you may end up touching systems you really didn't want or intend to move,
+without this option on if you save the file without first pressing 'update' for those systems you don't have to 
+worry about those unintended changes being saved.
+
+That's about it most anything else should be self explainitory I think or has a tooltip.
+
+Features disabled in this version:
+StarSystemType changing with proper statistics update.  You can change the value but the stats don't get updated.
+If you don't know what that means don't change a StarSystemType then. ;)
+
+Features in development\planned but disabled\not implemented for this release.
+GameInfo level -Planet\Moon modding (with proper stats\dependency updating)
+GameInfo level\Game Galaxy -System Add\Delete (with proper stats and dependency updating)
+Game\Empire(x) Agencies Editing - namely Science (techs) and Education (heros).are planned.
+Game\Empire(x) Agencies Editing Interior.
+
+
+
+
+
+

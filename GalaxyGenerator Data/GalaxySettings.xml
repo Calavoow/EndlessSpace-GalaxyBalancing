@@ -1,0 +1,2426 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GenerationData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- HOME GENERATION -->
+
+  <HomeGeneration>
+    <Trait Name="AffinityTerran">
+      <HomePlanet>
+        <OverrideType Probability="1.0">
+          <Type Name="PlanetTypeTerran" Weight="1"/>
+        </OverrideType>
+        <OverrideSize Probability="1.0">
+          <Size Name="PlanetSizeMedium" Weight="1"/>
+        </OverrideSize>
+        <InhibitAnomalies>
+          <All/>
+        </InhibitAnomalies>
+      </HomePlanet>
+      <OtherPlanets>
+        <OverrideType Probability="1">
+          <Type Name="PlanetTypeArid" Weight="1"/>
+          <Type Name="PlanetTypeTundra" Weight="1"/>
+          <Type Name="PlanetTypeDesert" Weight="3"/>
+          <Type Name="PlanetTypeArctic" Weight="3"/>
+          <Type Name="PlanetTypeBarren" Weight="3"/>
+          <Type Name="PlanetTypeAsteroids" Weight="3"/>
+          <Type Name="PlanetTypeLava" Weight="3"/>
+          <Type Name="PlanetTypeGasHydrogen" Weight="1"/>
+          <Type Name="PlanetTypeGasHelium" Weight="1"/>
+          <Type Name="PlanetTypeGasMethane" Weight="1"/>
+        </OverrideType>
+        <OverrideSize Probability="0">
+          <Size Name="PlanetSizeSmall" Weight="1"/>
+          <Size Name="PlanetSizeMedium" Weight="1"/>
+          <Size Name="PlanetSizeLarge" Weight="1"/>
+        </OverrideSize>
+        <InhibitAnomalies>
+          <All/>
+        </InhibitAnomalies>
+      </OtherPlanets>
+      <HomeStar>
+        <!--OverrideStarType>
+          <StarType Name="StarTypeDouble"/>
+        </OverrideStarType-->
+        <OverridePlanetsInSystem>
+          <Quantity Name="3" Weight="3"/>
+          <Quantity Name="4" Weight="3"/>
+          <Quantity Name="5" Weight="1"/>
+          <Quantity Name="6" Weight="1"/>
+        </OverridePlanetsInSystem>
+      </HomeStar>
+    </Trait>
+
+    <Trait Name="AffinitySwarm">
+      <HomePlanet>
+        <OverrideType Probability="1.0">
+          <Type Name="PlanetTypeArid" Weight="1"/>
+        </OverrideType>
+        <OverrideSize Probability="1.0">
+          <Size Name="PlanetSizeMedium" Weight="1"/>
+        </OverrideSize>
+        <InhibitAnomalies>
+          <All/>
+        </InhibitAnomalies>
+      </HomePlanet>
+      <OtherPlanets>
+        <OverrideType Probability="1">
+          <Type Name="PlanetTypeArid" Weight="1"/>
+          <Type Name="PlanetTypeTundra" Weight="1"/>
+          <Type Name="PlanetTypeDesert" Weight="3"/>
+          <Type Name="PlanetTypeArctic" Weight="3"/>
+          <Type Name="PlanetTypeBarren" Weight="3"/>
+          <Type Name="PlanetTypeAsteroids" Weight="3"/>
+          <Type Name="PlanetTypeLava" Weight="3"/>
+          <Type Name="PlanetTypeGasHydrogen" Weight="1"/>
+          <Type Name="PlanetTypeGasHelium" Weight="1"/>
+          <Type Name="PlanetTypeGasMethane" Weight="1"/>
+        </OverrideType>
+        <OverrideSize Probability="0">
+          <Size Name="PlanetSizeSmall" Weight="1"/>
+          <Size Name="PlanetSizeMedium" Weight="1"/>
+          <Size Name="PlanetSizeLarge" Weight="1"/>
+        </OverrideSize>
+        <InhibitAnomalies>
+          <All/>
+        </InhibitAnomalies>
+      </OtherPlanets>
+      <HomeStar>
+        <!--OverrideStarType>
+          <StarType Name="StarTypeDouble"/>
+        </OverrideStarType-->
+        <OverridePlanetsInSystem>
+          <Quantity Name="3" Weight="3"/>
+          <Quantity Name="4" Weight="3"/>
+          <Quantity Name="5" Weight="1"/>
+          <Quantity Name="6" Weight="1"/>
+        </OverridePlanetsInSystem>
+      </HomeStar>
+    </Trait>
+
+    <Trait Name="AffinityAmoeba">
+      <HomePlanet>
+        <OverrideType Probability="1.0">
+          <Type Name="PlanetTypeOcean" Weight="1"/>
+        </OverrideType>
+        <OverrideSize Probability="1.0">
+          <Size Name="PlanetSizeMedium" Weight="1"/>
+        </OverrideSize>
+        <InhibitAnomalies>
+          <All/>
+        </InhibitAnomalies>
+      </HomePlanet>
+      <OtherPlanets>
+        <OverrideType Probability="1">
+          <Type Name="PlanetTypeArid" Weight="1"/>
+          <Type Name="PlanetTypeTundra" Weight="1"/>
+          <Type Name="PlanetTypeDesert" Weight="3"/>
+          <Type Name="PlanetTypeArctic" Weight="3"/>
+          <Type Name="PlanetTypeBarren" Weight="3"/>
+          <Type Name="PlanetTypeAsteroids" Weight="3"/>
+          <Type Name="PlanetTypeLava" Weight="3"/>
+          <Type Name="PlanetTypeGasHydrogen" Weight="1"/>
+          <Type Name="PlanetTypeGasHelium" Weight="1"/>
+          <Type Name="PlanetTypeGasMethane" Weight="1"/>
+        </OverrideType>
+        <OverrideSize Probability="0">
+          <Size Name="PlanetSizeSmall" Weight="1"/>
+          <Size Name="PlanetSizeMedium" Weight="1"/>
+          <Size Name="PlanetSizeLarge" Weight="1"/>
+        </OverrideSize>
+        <InhibitAnomalies>
+          <All/>
+        </InhibitAnomalies>
+      </OtherPlanets>
+      <HomeStar>
+        <!--OverrideStarType>
+          <StarType Name="StarTypeDouble"/>
+        </OverrideStarType-->
+        <OverridePlanetsInSystem>
+          <Quantity Name="3" Weight="3"/>
+          <Quantity Name="4" Weight="3"/>
+          <Quantity Name="5" Weight="1"/>
+          <Quantity Name="6" Weight="1"/>
+        </OverridePlanetsInSystem>
+      </HomeStar>
+    </Trait>
+
+    <Trait Name="AffinitySophon">
+      <HomePlanet>
+        <OverrideType Probability="1.0">
+          <Type Name="PlanetTypeTerran" Weight="1"/>
+        </OverrideType>
+        <OverrideSize Probability="1.0">
+          <Size Name="PlanetSizeMedium" Weight="1"/>
+        </OverrideSize>
+        <InhibitAnomalies>
+          <All/>
+        </InhibitAnomalies>
+      </HomePlanet>
+      <OtherPlanets>
+        <OverrideType Probability="1">
+          <Type Name="PlanetTypeArid" Weight="1"/>
+          <Type Name="PlanetTypeTundra" Weight="1"/>
+          <Type Name="PlanetTypeDesert" Weight="3"/>
+          <Type Name="PlanetTypeArctic" Weight="3"/>
+          <Type Name="PlanetTypeBarren" Weight="3"/>
+          <Type Name="PlanetTypeAsteroids" Weight="3"/>
+          <Type Name="PlanetTypeLava" Weight="3"/>
+          <Type Name="PlanetTypeGasHydrogen" Weight="1"/>
+          <Type Name="PlanetTypeGasHelium" Weight="1"/>
+          <Type Name="PlanetTypeGasMethane" Weight="1"/>
+        </OverrideType>
+        <OverrideSize Probability="0">
+          <Size Name="PlanetSizeSmall" Weight="1"/>
+          <Size Name="PlanetSizeMedium" Weight="1"/>
+          <Size Name="PlanetSizeLarge" Weight="1"/>
+        </OverrideSize>
+        <InhibitAnomalies>
+          <All/>
+        </InhibitAnomalies>
+      </OtherPlanets>
+      <HomeStar>
+        <!--OverrideStarType>
+          <StarType Name="StarTypeDouble"/>
+        </OverrideStarType-->
+        <OverridePlanetsInSystem>
+          <Quantity Name="3" Weight="3"/>
+          <Quantity Name="4" Weight="3"/>
+          <Quantity Name="5" Weight="1"/>
+          <Quantity Name="6" Weight="1"/>
+        </OverridePlanetsInSystem>
+      </HomeStar>
+    </Trait>
+
+    <Trait Name="AffinityResistance">
+      <HomePlanet>
+        <OverrideType Probability="1.0">
+          <Type Name="PlanetTypeJungle" Weight="1"/>
+        </OverrideType>
+        <OverrideSize Probability="1.0">
+          <Size Name="PlanetSizeMedium" Weight="1"/>
+        </OverrideSize>
+        <InhibitAnomalies>
+          <All/>
+        </InhibitAnomalies>
+      </HomePlanet>
+      <OtherPlanets>
+        <OverrideType Probability="1">
+          <Type Name="PlanetTypeArid" Weight="1"/>
+          <Type Name="PlanetTypeTundra" Weight="1"/>
+          <Type Name="PlanetTypeDesert" Weight="3"/>
+          <Type Name="PlanetTypeArctic" Weight="3"/>
+          <Type Name="PlanetTypeBarren" Weight="3"/>
+          <Type Name="PlanetTypeAsteroids" Weight="3"/>
+          <Type Name="PlanetTypeLava" Weight="3"/>
+          <Type Name="PlanetTypeGasHydrogen" Weight="1"/>
+          <Type Name="PlanetTypeGasHelium" Weight="1"/>
+          <Type Name="PlanetTypeGasMethane" Weight="1"/>
+        </OverrideType>
+        <OverrideSize Probability="0">
+          <Size Name="PlanetSizeSmall" Weight="1"/>
+          <Size Name="PlanetSizeMedium" Weight="1"/>
+          <Size Name="PlanetSizeLarge" Weight="1"/>
+        </OverrideSize>
+        <InhibitAnomalies>
+          <All/>
+        </InhibitAnomalies>
+      </OtherPlanets>
+      <HomeStar>
+        <!--OverrideStarType>
+          <StarType Name="StarTypeDouble"/>
+        </OverrideStarType-->
+        <OverridePlanetsInSystem>
+          <Quantity Name="3" Weight="3"/>
+          <Quantity Name="4" Weight="3"/>
+          <Quantity Name="5" Weight="1"/>
+          <Quantity Name="6" Weight="1"/>
+        </OverridePlanetsInSystem>
+      </HomeStar>
+    </Trait>
+
+    <Trait Name="AffinityHoratio">
+      <HomePlanet>
+        <OverrideType Probability="1.0">
+          <Type Name="PlanetTypeArid" Weight="1"/>
+        </OverrideType>
+        <OverrideSize Probability="1.0">
+          <Size Name="PlanetSizeMedium" Weight="1"/>
+        </OverrideSize>
+        <InhibitAnomalies>
+          <All/>
+        </InhibitAnomalies>
+      </HomePlanet>
+      <OtherPlanets>
+        <OverrideType Probability="1">
+          <Type Name="PlanetTypeArid" Weight="1"/>
+          <Type Name="PlanetTypeTundra" Weight="1"/>
+          <Type Name="PlanetTypeDesert" Weight="3"/>
+          <Type Name="PlanetTypeArctic" Weight="3"/>
+          <Type Name="PlanetTypeBarren" Weight="3"/>
+          <Type Name="PlanetTypeAsteroids" Weight="3"/>
+          <Type Name="PlanetTypeLava" Weight="3"/>
+          <Type Name="PlanetTypeGasHydrogen" Weight="1"/>
+          <Type Name="PlanetTypeGasHelium" Weight="1"/>
+          <Type Name="PlanetTypeGasMethane" Weight="1"/>
+        </OverrideType>
+        <OverrideSize Probability="0">
+          <Size Name="PlanetSizeSmall" Weight="1"/>
+          <Size Name="PlanetSizeMedium" Weight="1"/>
+          <Size Name="PlanetSizeLarge" Weight="1"/>
+        </OverrideSize>
+        <InhibitAnomalies>
+          <All/>
+        </InhibitAnomalies>
+      </OtherPlanets>
+      <HomeStar>
+        <!--OverrideStarType>
+          <StarType Name="StarTypeDouble"/>
+        </OverrideStarType-->
+        <OverridePlanetsInSystem>
+          <Quantity Name="3" Weight="3"/>
+          <Quantity Name="4" Weight="3"/>
+          <Quantity Name="5" Weight="1"/>
+          <Quantity Name="6" Weight="1"/>
+        </OverridePlanetsInSystem>
+      </HomeStar>
+    </Trait>
+
+    <Trait Name="AffinitySower">
+      <HomePlanet>
+        <OverrideType Probability="1.0">
+          <Type Name="PlanetTypeTundra" Weight="1"/>
+        </OverrideType>
+        <OverrideSize Probability="1.0">
+          <Size Name="PlanetSizeMedium" Weight="1"/>
+        </OverrideSize>
+        <InhibitAnomalies>
+          <All/>
+        </InhibitAnomalies>
+      </HomePlanet>
+      <OtherPlanets>
+        <OverrideType Probability="1">
+          <Type Name="PlanetTypeArid" Weight="1"/>
+          <Type Name="PlanetTypeTundra" Weight="1"/>
+          <Type Name="PlanetTypeDesert" Weight="3"/>
+          <Type Name="PlanetTypeArctic" Weight="3"/>
+          <Type Name="PlanetTypeBarren" Weight="3"/>
+          <Type Name="PlanetTypeAsteroids" Weight="3"/>
+          <Type Name="PlanetTypeLava" Weight="3"/>
+          <Type Name="PlanetTypeGasHydrogen" Weight="1"/>
+          <Type Name="PlanetTypeGasHelium" Weight="1"/>
+          <Type Name="PlanetTypeGasMethane" Weight="1"/>
+        </OverrideType>
+        <OverrideSize Probability="0">
+          <Size Name="PlanetSizeSmall" Weight="1"/>
+          <Size Name="PlanetSizeMedium" Weight="1"/>
+          <Size Name="PlanetSizeLarge" Weight="1"/>
+        </OverrideSize>
+        <InhibitAnomalies>
+          <All/>
+        </InhibitAnomalies>
+      </OtherPlanets>
+      <HomeStar>
+        <!--OverrideStarType>
+          <StarType Name="StarTypeDouble"/>
+        </OverrideStarType-->
+        <OverridePlanetsInSystem>
+          <Quantity Name="3" Weight="3"/>
+          <Quantity Name="4" Weight="3"/>
+          <Quantity Name="5" Weight="1"/>
+          <Quantity Name="6" Weight="1"/>
+        </OverridePlanetsInSystem>
+      </HomeStar>
+    </Trait>
+
+    <Trait Name="AffinityHissho">
+      <HomePlanet>
+        <OverrideType Probability="1.0">
+          <Type Name="PlanetTypeJungle" Weight="1"/>
+        </OverrideType>
+        <OverrideSize Probability="1.0">
+          <Size Name="PlanetSizeMedium" Weight="1"/>
+        </OverrideSize>
+        <InhibitAnomalies>
+          <All/>
+        </InhibitAnomalies>
+      </HomePlanet>
+      <OtherPlanets>
+        <OverrideType Probability="1">
+          <Type Name="PlanetTypeArid" Weight="1"/>
+          <Type Name="PlanetTypeTundra" Weight="1"/>
+          <Type Name="PlanetTypeDesert" Weight="3"/>
+          <Type Name="PlanetTypeArctic" Weight="3"/>
+          <Type Name="PlanetTypeBarren" Weight="3"/>
+          <Type Name="PlanetTypeAsteroids" Weight="3"/>
+          <Type Name="PlanetTypeLava" Weight="3"/>
+          <Type Name="PlanetTypeGasHydrogen" Weight="1"/>
+          <Type Name="PlanetTypeGasHelium" Weight="1"/>
+          <Type Name="PlanetTypeGasMethane" Weight="1"/>
+        </OverrideType>
+        <OverrideSize Probability="0">
+          <Size Name="PlanetSizeSmall" Weight="1"/>
+          <Size Name="PlanetSizeMedium" Weight="1"/>
+          <Size Name="PlanetSizeLarge" Weight="1"/>
+        </OverrideSize>
+        <InhibitAnomalies>
+          <All/>
+        </InhibitAnomalies>
+      </OtherPlanets>
+      <HomeStar>
+        <!--OverrideStarType>
+          <StarType Name="StarTypeDouble"/>
+        </OverrideStarType-->
+        <OverridePlanetsInSystem>
+          <Quantity Name="3" Weight="3"/>
+          <Quantity Name="4" Weight="3"/>
+          <Quantity Name="5" Weight="1"/>
+          <Quantity Name="6" Weight="1"/>
+        </OverridePlanetsInSystem>
+      </HomeStar>
+    </Trait>
+
+    <Trait Name="AffinityEmperor">
+      <HomePlanet>
+        <OverrideType Probability="1.0">
+          <Type Name="PlanetTypeTerran" Weight="1"/>
+        </OverrideType>
+        <OverrideSize Probability="1.0">
+          <Size Name="PlanetSizeMedium" Weight="1"/>
+        </OverrideSize>
+        <InhibitAnomalies>
+          <All/>
+        </InhibitAnomalies>
+      </HomePlanet>
+      <OtherPlanets>
+        <OverrideType Probability="1">
+          <Type Name="PlanetTypeArid" Weight="1"/>
+          <Type Name="PlanetTypeTundra" Weight="1"/>
+          <Type Name="PlanetTypeDesert" Weight="3"/>
+          <Type Name="PlanetTypeArctic" Weight="3"/>
+          <Type Name="PlanetTypeBarren" Weight="3"/>
+          <Type Name="PlanetTypeAsteroids" Weight="3"/>
+          <Type Name="PlanetTypeLava" Weight="3"/>
+          <Type Name="PlanetTypeGasHydrogen" Weight="1"/>
+          <Type Name="PlanetTypeGasHelium" Weight="1"/>
+          <Type Name="PlanetTypeGasMethane" Weight="1"/>
+        </OverrideType>
+        <OverrideSize Probability="0">
+          <Size Name="PlanetSizeSmall" Weight="1"/>
+          <Size Name="PlanetSizeMedium" Weight="1"/>
+          <Size Name="PlanetSizeLarge" Weight="1"/>
+        </OverrideSize>
+        <InhibitAnomalies>
+          <All/>
+        </InhibitAnomalies>
+      </OtherPlanets>
+      <HomeStar>
+        <!--OverrideStarType>
+          <StarType Name="StarTypeDouble"/>
+        </OverrideStarType-->
+        <OverridePlanetsInSystem>
+          <Quantity Name="3" Weight="3"/>
+          <Quantity Name="4" Weight="3"/>
+          <Quantity Name="5" Weight="1"/>
+          <Quantity Name="6" Weight="1"/>
+        </OverridePlanetsInSystem>
+      </HomeStar>
+    </Trait>
+  </HomeGeneration>
+
+  <!--========GENERATION OPTIONS====== -->
+  <BaseOptions>
+
+    <GalaxyShapes Default="GalaxySpiral4">
+      <GalaxyShape Name="GalaxySpiral8"/>
+      <GalaxyShape Name="GalaxySpiral4"/>
+      <GalaxyShape Name="GalaxySpiral2"/>
+      <GalaxyShape Name="GalaxyDisk"/>
+      <GalaxyShape Name="GalaxyDisk4"/>
+      <GalaxyShape Name="GalaxyOvoid"/>
+      <GalaxyShape Name="GalaxyTwinElliptical"/>
+    </GalaxyShapes>
+
+    <GalaxySizes Default="GalaxySizeMedium">
+      <GalaxySize Name="GalaxySizeTiny"   NumStars="16"  Width="50" NominalPlayers="2" StrategicResourceNumberPerType="6"   LuxuryResourceTypes="4"/>
+      <GalaxySize Name="GalaxySizeSmall"  NumStars="32"  Width="70" NominalPlayers="4" StrategicResourceNumberPerType="12"   LuxuryResourceTypes="8"/>
+      <GalaxySize Name="GalaxySizeMedium" NumStars="48"  Width="86" NominalPlayers="6" StrategicResourceNumberPerType="18"  LuxuryResourceTypes="12"/>
+      <GalaxySize Name="GalaxySizeLarge"  NumStars="64"  Width="100" NominalPlayers="8" StrategicResourceNumberPerType="24"  LuxuryResourceTypes="16"/>
+      <GalaxySize Name="GalaxySizeHuge"   NumStars="80" Width="111" NominalPlayers="8" StrategicResourceNumberPerType="30"  LuxuryResourceTypes="16"/>
+    </GalaxySizes>
+
+    <EmpiresNumbers Default="4">
+      <EmpiresNumber Name="2"   Number="2"/>
+      <EmpiresNumber Name="3"   Number="3"/>
+      <EmpiresNumber Name="4"   Number="4"/>
+      <EmpiresNumber Name="5"   Number="5"/>
+      <EmpiresNumber Name="6"   Number="6"/>
+      <EmpiresNumber Name="7"   Number="7"/>
+      <EmpiresNumber Name="8"   Number="8"/>
+    </EmpiresNumbers>
+
+    <!-- probabilities are weights, not percent -->
+    <GalaxyAges Default="GalaxyAgeNormal">
+      <GalaxyAge Name="GalaxyAgeYoung">
+        <StarTypeProbability Name="StarTypeWhite"         Probability="3"/>
+        <StarTypeProbability Name="StarTypeYellow"        Probability="3"/>
+        <StarTypeProbability Name="StarTypeBlue"          Probability="2"/>
+        <StarTypeProbability Name="StarTypeProtostar"     Probability="2"/>
+        <StarTypeProbability Name="StarTypeRedSupergiant" Probability="2"/>
+        <StarTypeProbability Name="StarTypeDouble"        Probability="1"/>
+        <StarTypeProbability Name="StarTypeRedDwarf"      Probability="1"/>
+        <StarTypeProbability Name="StarTypeWhiteDwarf"    Probability="1"/>
+      </GalaxyAge>
+      <GalaxyAge Name="GalaxyAgeNormal">
+        <StarTypeProbability Name="StarTypeWhite"         Probability="2"/>
+        <StarTypeProbability Name="StarTypeYellow"        Probability="2"/>
+        <StarTypeProbability Name="StarTypeBlue"          Probability="3"/>
+        <StarTypeProbability Name="StarTypeProtostar"     Probability="3"/>
+        <StarTypeProbability Name="StarTypeRedSupergiant" Probability="2"/>
+        <StarTypeProbability Name="StarTypeDouble"        Probability="2"/>
+        <StarTypeProbability Name="StarTypeRedDwarf"      Probability="1"/>
+        <StarTypeProbability Name="StarTypeWhiteDwarf"    Probability="1"/>
+      </GalaxyAge>
+      <GalaxyAge Name="GalaxyAgeOld">
+        <StarTypeProbability Name="StarTypeWhite"         Probability="1"/>
+        <StarTypeProbability Name="StarTypeYellow"        Probability="1"/>
+        <StarTypeProbability Name="StarTypeBlue"          Probability="1"/>
+        <StarTypeProbability Name="StarTypeProtostar"     Probability="1"/>
+        <StarTypeProbability Name="StarTypeRedSupergiant" Probability="2"/>
+        <StarTypeProbability Name="StarTypeDouble"        Probability="3"/>
+        <StarTypeProbability Name="StarTypeRedDwarf"      Probability="3"/>
+        <StarTypeProbability Name="StarTypeWhiteDwarf"    Probability="2"/>
+      </GalaxyAge>
+      <GalaxyAge Name="GalaxyAgeRandom">
+        <StarTypeProbability Name="StarTypeWhite"         Probability="1"/>
+        <StarTypeProbability Name="StarTypeYellow"        Probability="1"/>
+        <StarTypeProbability Name="StarTypeBlue"          Probability="1"/>
+        <StarTypeProbability Name="StarTypeProtostar"     Probability="1"/>
+        <StarTypeProbability Name="StarTypeRedSupergiant" Probability="1"/>
+        <StarTypeProbability Name="StarTypeDouble"        Probability="1"/>
+        <StarTypeProbability Name="StarTypeRedDwarf"      Probability="1"/>
+        <StarTypeProbability Name="StarTypeWhiteDwarf"    Probability="1"/>
+      </GalaxyAge>
+    </GalaxyAges>
+
+  </BaseOptions>
+
+  <AdvancedOptions>
+
+    <GalaxyDensities Default="GalaxyDensityMedium">
+      <GalaxyDensity Name="GalaxyDensityLow"    NumberFactor="0.66"/>
+      <GalaxyDensity Name="GalaxyDensityMedium" NumberFactor="1"/>
+      <GalaxyDensity Name="GalaxyDensityHigh"   NumberFactor="1.33"/>
+    </GalaxyDensities>
+
+    <StarConnectivities Default="StarConnectivityAverage">
+      <StarConnectivity Name="StarConnectivityLow"     Warps="2.0"/>
+      <StarConnectivity Name="StarConnectivityAverage" Warps="3"/>
+      <StarConnectivity Name="StarConnectivityHigh"    Warps="4.0"/>
+    </StarConnectivities>
+
+    <!-- None = 1 unique constellation for the galaxy. Each galaxy defines min and max constellations, Few = min, Many = Max-->
+    <ConstellationNumbers Default="ConstellationNumberFew">
+      <ConstellationNumber Name="ConstellationNumberNone"/>
+      <ConstellationNumber Name="ConstellationNumberFew"/>
+      <ConstellationNumber Name="ConstellationNumberMany"/>
+    </ConstellationNumbers>
+
+    <ConstellationConnectivities Default="ConstellationConnectivityAverage">
+      <ConstellationConnectivity Name="ConstellationConnectivityLow"     Wormholes="0.5"/>
+      <ConstellationConnectivity Name="ConstellationConnectivityAverage" Wormholes="1"/>
+      <ConstellationConnectivity Name="ConstellationConnectivityHigh"    Wormholes="1.5"/>
+    </ConstellationConnectivities>
+
+    <!-- Distance in parsecs-->
+    <!-- Possible problem with galaxy size : constellation distances risk to be linked to the perception of the galaxy size -->
+    <ConstellationDistances Default="ConstellationDistanceAverage">
+      <ConstellationDistance Name="ConstellationDistanceClose"   Distance="2"/>
+      <ConstellationDistance Name="ConstellationDistanceAverage" Distance="3"/>
+      <ConstellationDistance Name="ConstellationDistanceRemote"  Distance="5"/>
+    </ConstellationDistances>
+
+    <!-- probabilities are weights, not percent -->
+    <PlanetsPerSystems Default="PlanetsPerSystemNormal">
+      <PlanetsPerSystem Name="PlanetsPerSystemFew">
+        <PlanetNumberProbability Number="0" Probability="0"/>
+        <PlanetNumberProbability Number="1" Probability="2"/>
+        <PlanetNumberProbability Number="2" Probability="3"/>
+        <PlanetNumberProbability Number="3" Probability="3"/>
+        <PlanetNumberProbability Number="4" Probability="2"/>
+        <PlanetNumberProbability Number="5" Probability="1"/>
+        <PlanetNumberProbability Number="6" Probability="1"/>
+      </PlanetsPerSystem>
+      <PlanetsPerSystem Name="PlanetsPerSystemNormal">
+        <PlanetNumberProbability Number="0" Probability="0"/>
+        <PlanetNumberProbability Number="1" Probability="1"/>
+        <PlanetNumberProbability Number="2" Probability="2"/>
+        <PlanetNumberProbability Number="3" Probability="3"/>
+        <PlanetNumberProbability Number="4" Probability="3"/>
+        <PlanetNumberProbability Number="5" Probability="2"/>
+        <PlanetNumberProbability Number="6" Probability="1"/>
+      </PlanetsPerSystem>
+      <PlanetsPerSystem Name="PlanetsPerSystemMany">
+        <PlanetNumberProbability Number="0" Probability="0"/>
+        <PlanetNumberProbability Number="1" Probability="0"/>
+        <PlanetNumberProbability Number="2" Probability="1"/>
+        <PlanetNumberProbability Number="3" Probability="2"/>
+        <PlanetNumberProbability Number="4" Probability="3"/>
+        <PlanetNumberProbability Number="5" Probability="3"/>
+        <PlanetNumberProbability Number="6" Probability="2"/>
+      </PlanetsPerSystem>
+      <PlanetsPerSystem Name="PlanetsPerSystemRandom">
+        <PlanetNumberProbability Number="0" Probability="0"/>
+        <PlanetNumberProbability Number="1" Probability="1"/>
+        <PlanetNumberProbability Number="2" Probability="1"/>
+        <PlanetNumberProbability Number="3" Probability="1"/>
+        <PlanetNumberProbability Number="4" Probability="1"/>
+        <PlanetNumberProbability Number="5" Probability="1"/>
+        <PlanetNumberProbability Number="6" Probability="1"/>
+      </PlanetsPerSystem>
+    </PlanetsPerSystems>
+
+    <PlanetsSizeFactors Default="PlanetsSizeFactorNormal">
+      <PlanetsSizeFactor Name="PlanetsSizeFactorSmaller">
+        <PlanetSizeFactor Name="PlanetSizeTiny"   ProbabilityFactor="3"/>
+        <PlanetSizeFactor Name="PlanetSizeSmall"  ProbabilityFactor="6"/>
+        <PlanetSizeFactor Name="PlanetSizeMedium" ProbabilityFactor="3"/>
+        <PlanetSizeFactor Name="PlanetSizeLarge"  ProbabilityFactor="2"/>
+        <PlanetSizeFactor Name="PlanetSizeHuge"   ProbabilityFactor="1"/>
+      </PlanetsSizeFactor>
+      <PlanetsSizeFactor Name="PlanetsSizeFactorNormal">
+        <PlanetSizeFactor Name="PlanetSizeTiny"   ProbabilityFactor="1"/>
+        <PlanetSizeFactor Name="PlanetSizeSmall"  ProbabilityFactor="2"/>
+        <PlanetSizeFactor Name="PlanetSizeMedium" ProbabilityFactor="3"/>
+        <PlanetSizeFactor Name="PlanetSizeLarge"  ProbabilityFactor="2"/>
+        <PlanetSizeFactor Name="PlanetSizeHuge"   ProbabilityFactor="1"/>
+      </PlanetsSizeFactor>
+      <PlanetsSizeFactor Name="PlanetsSizeFactorBigger">
+        <PlanetSizeFactor Name="PlanetSizeTiny"   ProbabilityFactor="1"/>
+        <PlanetSizeFactor Name="PlanetSizeSmall"  ProbabilityFactor="2"/>
+        <PlanetSizeFactor Name="PlanetSizeMedium" ProbabilityFactor="3"/>
+        <PlanetSizeFactor Name="PlanetSizeLarge"  ProbabilityFactor="6"/>
+        <PlanetSizeFactor Name="PlanetSizeHuge"   ProbabilityFactor="3"/>
+      </PlanetsSizeFactor>
+      <PlanetsSizeFactor Name="PlanetsSizeFactorRandom">
+        <PlanetSizeFactor Name="PlanetSizeTiny"   ProbabilityFactor="1"/>
+        <PlanetSizeFactor Name="PlanetSizeSmall"  ProbabilityFactor="1"/>
+        <PlanetSizeFactor Name="PlanetSizeMedium" ProbabilityFactor="1"/>
+        <PlanetSizeFactor Name="PlanetSizeLarge"  ProbabilityFactor="1"/>
+        <PlanetSizeFactor Name="PlanetSizeHuge"   ProbabilityFactor="1"/>
+      </PlanetsSizeFactor>
+    </PlanetsSizeFactors>
+
+    <ResourceRepartitionFactors Default="ResourceRepartitionFactorNormal">
+      <ResourceRepartitionFactor Name="ResourceRepartitionFactorFew"    Number="0.5"/>
+      <ResourceRepartitionFactor Name="ResourceRepartitionFactorNormal" Number="1"/>
+      <ResourceRepartitionFactor Name="ResourceRepartitionFactorMany"   Number="1.5"/>
+    </ResourceRepartitionFactors>
+
+  </AdvancedOptions>
+
+  <!-- =============PLANETS============ -->
+
+  <PlanetTypeProbabilitiesPerStar>
+    <PlanetTypeProbabilityPerStar Name="StarTypeWhite">
+      <!-- probabilities are weights, not percents -->
+      <PlanetTypeProbability Name="PlanetTypeTerran"      Probability="4"/>
+      <PlanetTypeProbability Name="PlanetTypeJungle"      Probability="6"/>
+      <PlanetTypeProbability Name="PlanetTypeOcean"       Probability="4"/>
+      <PlanetTypeProbability Name="PlanetTypeArid"        Probability="16"/>
+      <PlanetTypeProbability Name="PlanetTypeTundra"      Probability="16"/>
+      <PlanetTypeProbability Name="PlanetTypeDesert"      Probability="8"/>
+      <PlanetTypeProbability Name="PlanetTypeArctic"      Probability="8"/>
+      <PlanetTypeProbability Name="PlanetTypeLava"        Probability="5"/>
+      <PlanetTypeProbability Name="PlanetTypeBarren"      Probability="5"/>
+      <PlanetTypeProbability Name="PlanetTypeAsteroids"   Probability="3"/>
+      <PlanetTypeProbability Name="PlanetTypeGasHydrogen" Probability="1"/>
+      <PlanetTypeProbability Name="PlanetTypeGasHelium"   Probability="1"/>
+      <PlanetTypeProbability Name="PlanetTypeGasMethane"  Probability="1"/>
+    </PlanetTypeProbabilityPerStar>
+    <PlanetTypeProbabilityPerStar Name="StarTypeYellow">
+      <PlanetTypeProbability Name="PlanetTypeTerran"      Probability="5"/>
+      <PlanetTypeProbability Name="PlanetTypeJungle"      Probability="2"/>
+      <PlanetTypeProbability Name="PlanetTypeOcean"       Probability="2"/>
+      <PlanetTypeProbability Name="PlanetTypeArid"        Probability="14"/>
+      <PlanetTypeProbability Name="PlanetTypeTundra"      Probability="14"/>
+      <PlanetTypeProbability Name="PlanetTypeDesert"      Probability="12"/>
+      <PlanetTypeProbability Name="PlanetTypeArctic"      Probability="12"/>
+      <PlanetTypeProbability Name="PlanetTypeLava"        Probability="5"/>
+      <PlanetTypeProbability Name="PlanetTypeBarren"      Probability="5"/>
+      <PlanetTypeProbability Name="PlanetTypeAsteroids"   Probability="3"/>
+      <PlanetTypeProbability Name="PlanetTypeGasHydrogen" Probability="1"/>
+      <PlanetTypeProbability Name="PlanetTypeGasHelium"   Probability="1"/>
+      <PlanetTypeProbability Name="PlanetTypeGasMethane"  Probability="1"/>
+    </PlanetTypeProbabilityPerStar>
+    <PlanetTypeProbabilityPerStar Name="StarTypeBlue">
+      <PlanetTypeProbability Name="PlanetTypeTerran"      Probability="2"/>
+      <PlanetTypeProbability Name="PlanetTypeJungle"      Probability="2"/>
+      <PlanetTypeProbability Name="PlanetTypeOcean"       Probability="5"/>
+      <PlanetTypeProbability Name="PlanetTypeArid"        Probability="18"/>
+      <PlanetTypeProbability Name="PlanetTypeTundra"      Probability="8"/>
+      <PlanetTypeProbability Name="PlanetTypeDesert"      Probability="14"/>
+      <PlanetTypeProbability Name="PlanetTypeArctic"      Probability="5"/>
+      <PlanetTypeProbability Name="PlanetTypeLava"        Probability="8"/>
+      <PlanetTypeProbability Name="PlanetTypeBarren"      Probability="8"/>
+      <PlanetTypeProbability Name="PlanetTypeAsteroids"   Probability="4"/>
+      <PlanetTypeProbability Name="PlanetTypeGasHydrogen" Probability="2"/>
+      <PlanetTypeProbability Name="PlanetTypeGasHelium"   Probability="2"/>
+      <PlanetTypeProbability Name="PlanetTypeGasMethane"  Probability="2"/>
+    </PlanetTypeProbabilityPerStar>
+    <PlanetTypeProbabilityPerStar Name="StarTypeProtostar">
+      <PlanetTypeProbability Name="PlanetTypeTerran"      Probability="2"/>
+      <PlanetTypeProbability Name="PlanetTypeJungle"      Probability="2"/>
+      <PlanetTypeProbability Name="PlanetTypeOcean"       Probability="2"/>
+      <PlanetTypeProbability Name="PlanetTypeArid"        Probability="4"/>
+      <PlanetTypeProbability Name="PlanetTypeTundra"      Probability="10"/>
+      <PlanetTypeProbability Name="PlanetTypeDesert"      Probability="6"/>
+      <PlanetTypeProbability Name="PlanetTypeArctic"      Probability="10"/>
+      <PlanetTypeProbability Name="PlanetTypeLava"        Probability="8"/>
+      <PlanetTypeProbability Name="PlanetTypeBarren"      Probability="14"/>
+      <PlanetTypeProbability Name="PlanetTypeAsteroids"   Probability="8"/>
+      <PlanetTypeProbability Name="PlanetTypeGasHydrogen" Probability="5"/>
+      <PlanetTypeProbability Name="PlanetTypeGasHelium"   Probability="5"/>
+      <PlanetTypeProbability Name="PlanetTypeGasMethane"  Probability="5"/>
+    </PlanetTypeProbabilityPerStar>
+    <PlanetTypeProbabilityPerStar Name="StarTypeRedSupergiant">
+      <PlanetTypeProbability Name="PlanetTypeTerran"      Probability="1"/>
+      <PlanetTypeProbability Name="PlanetTypeJungle"      Probability="1"/>
+      <PlanetTypeProbability Name="PlanetTypeOcean"       Probability="1"/>
+      <PlanetTypeProbability Name="PlanetTypeArid"        Probability="10"/>
+      <PlanetTypeProbability Name="PlanetTypeTundra"      Probability="10"/>
+      <PlanetTypeProbability Name="PlanetTypeDesert"      Probability="6"/>
+      <PlanetTypeProbability Name="PlanetTypeArctic"      Probability="6"/>
+      <PlanetTypeProbability Name="PlanetTypeLava"        Probability="18"/>
+      <PlanetTypeProbability Name="PlanetTypeBarren"      Probability="15"/>
+      <PlanetTypeProbability Name="PlanetTypeAsteroids"   Probability="6"/>
+      <PlanetTypeProbability Name="PlanetTypeGasHydrogen" Probability="2"/>
+      <PlanetTypeProbability Name="PlanetTypeGasHelium"   Probability="2"/>
+      <PlanetTypeProbability Name="PlanetTypeGasMethane"  Probability="2"/>
+    </PlanetTypeProbabilityPerStar>
+    <PlanetTypeProbabilityPerStar Name="StarTypeDouble">
+      <PlanetTypeProbability Name="PlanetTypeTerran"      Probability="1"/>
+      <PlanetTypeProbability Name="PlanetTypeJungle"      Probability="1"/>
+      <PlanetTypeProbability Name="PlanetTypeOcean"       Probability="1"/>
+      <PlanetTypeProbability Name="PlanetTypeArid"        Probability="8"/>
+      <PlanetTypeProbability Name="PlanetTypeTundra"      Probability="6"/>
+      <PlanetTypeProbability Name="PlanetTypeDesert"      Probability="10"/>
+      <PlanetTypeProbability Name="PlanetTypeArctic"      Probability="8"/>
+      <PlanetTypeProbability Name="PlanetTypeLava"        Probability="16"/>
+      <PlanetTypeProbability Name="PlanetTypeBarren"      Probability="10"/>
+      <PlanetTypeProbability Name="PlanetTypeAsteroids"   Probability="4"/>
+      <PlanetTypeProbability Name="PlanetTypeGasHydrogen" Probability="3"/>
+      <PlanetTypeProbability Name="PlanetTypeGasHelium"   Probability="3"/>
+      <PlanetTypeProbability Name="PlanetTypeGasMethane"  Probability="3"/>
+    </PlanetTypeProbabilityPerStar>
+    <PlanetTypeProbabilityPerStar Name="StarTypeRedDwarf">
+      <PlanetTypeProbability Name="PlanetTypeTerran"      Probability="1"/>
+      <PlanetTypeProbability Name="PlanetTypeJungle"      Probability="1"/>
+      <PlanetTypeProbability Name="PlanetTypeOcean"       Probability="1"/>
+      <PlanetTypeProbability Name="PlanetTypeArid"        Probability="5"/>
+      <PlanetTypeProbability Name="PlanetTypeTundra"      Probability="5"/>
+      <PlanetTypeProbability Name="PlanetTypeDesert"      Probability="6"/>
+      <PlanetTypeProbability Name="PlanetTypeArctic"      Probability="6"/>
+      <PlanetTypeProbability Name="PlanetTypeLava"        Probability="12"/>
+      <PlanetTypeProbability Name="PlanetTypeBarren"      Probability="14"/>
+      <PlanetTypeProbability Name="PlanetTypeAsteroids"   Probability="12"/>
+      <PlanetTypeProbability Name="PlanetTypeGasHydrogen" Probability="6"/>
+      <PlanetTypeProbability Name="PlanetTypeGasHelium"   Probability="6"/>
+      <PlanetTypeProbability Name="PlanetTypeGasMethane"  Probability="6"/>
+    </PlanetTypeProbabilityPerStar>
+    <PlanetTypeProbabilityPerStar Name="StarTypeWhiteDwarf">
+      <PlanetTypeProbability Name="PlanetTypeTerran"      Probability="1"/>
+      <PlanetTypeProbability Name="PlanetTypeJungle"      Probability="1"/>
+      <PlanetTypeProbability Name="PlanetTypeOcean"       Probability="1"/>
+      <PlanetTypeProbability Name="PlanetTypeArid"        Probability="3"/>
+      <PlanetTypeProbability Name="PlanetTypeTundra"      Probability="8"/>
+      <PlanetTypeProbability Name="PlanetTypeDesert"      Probability="4"/>
+      <PlanetTypeProbability Name="PlanetTypeArctic"      Probability="10"/>
+      <PlanetTypeProbability Name="PlanetTypeLava"        Probability="12"/>
+      <PlanetTypeProbability Name="PlanetTypeBarren"      Probability="20"/>
+      <PlanetTypeProbability Name="PlanetTypeAsteroids"   Probability="6"/>
+      <PlanetTypeProbability Name="PlanetTypeGasHydrogen" Probability="4"/>
+      <PlanetTypeProbability Name="PlanetTypeGasHelium"   Probability="4"/>
+      <PlanetTypeProbability Name="PlanetTypeGasMethane"  Probability="4"/>
+    </PlanetTypeProbabilityPerStar>
+  </PlanetTypeProbabilitiesPerStar>
+
+  <PlanetSizeProbabilitiesPerType>
+    <!-- probabilities are weights, not percents -->
+    <PlanetSizeProbabilityPerType Name="PlanetTypeTerran">
+      <PlanetSizeProbability Name="PlanetSizeTiny"   Probability="4"/>
+      <PlanetSizeProbability Name="PlanetSizeSmall"  Probability="4"/>
+      <PlanetSizeProbability Name="PlanetSizeMedium" Probability="4"/>
+      <PlanetSizeProbability Name="PlanetSizeLarge"  Probability="2"/>
+      <PlanetSizeProbability Name="PlanetSizeHuge"   Probability="1"/>
+    </PlanetSizeProbabilityPerType>
+    <PlanetSizeProbabilityPerType Name="PlanetTypeJungle">
+      <PlanetSizeProbability Name="PlanetSizeTiny"   Probability="4"/>
+      <PlanetSizeProbability Name="PlanetSizeSmall"  Probability="4"/>
+      <PlanetSizeProbability Name="PlanetSizeMedium" Probability="3"/>
+      <PlanetSizeProbability Name="PlanetSizeLarge"  Probability="2"/>
+      <PlanetSizeProbability Name="PlanetSizeHuge"   Probability="1"/>
+    </PlanetSizeProbabilityPerType>
+    <PlanetSizeProbabilityPerType Name="PlanetTypeOcean">
+      <PlanetSizeProbability Name="PlanetSizeTiny"   Probability="4"/>
+      <PlanetSizeProbability Name="PlanetSizeSmall"  Probability="4"/>
+      <PlanetSizeProbability Name="PlanetSizeMedium" Probability="3"/>
+      <PlanetSizeProbability Name="PlanetSizeLarge"  Probability="2"/>
+      <PlanetSizeProbability Name="PlanetSizeHuge"   Probability="1"/>
+    </PlanetSizeProbabilityPerType>
+    <PlanetSizeProbabilityPerType Name="PlanetTypeArid">
+      <PlanetSizeProbability Name="PlanetSizeTiny"   Probability="4"/>
+      <PlanetSizeProbability Name="PlanetSizeSmall"  Probability="4"/>
+      <PlanetSizeProbability Name="PlanetSizeMedium" Probability="3"/>
+      <PlanetSizeProbability Name="PlanetSizeLarge"  Probability="3"/>
+      <PlanetSizeProbability Name="PlanetSizeHuge"   Probability="2"/>
+    </PlanetSizeProbabilityPerType>
+    <PlanetSizeProbabilityPerType Name="PlanetTypeTundra">
+      <PlanetSizeProbability Name="PlanetSizeTiny"   Probability="4"/>
+      <PlanetSizeProbability Name="PlanetSizeSmall"  Probability="4"/>
+      <PlanetSizeProbability Name="PlanetSizeMedium" Probability="3"/>
+      <PlanetSizeProbability Name="PlanetSizeLarge"  Probability="3"/>
+      <PlanetSizeProbability Name="PlanetSizeHuge"   Probability="2"/>
+    </PlanetSizeProbabilityPerType>
+    <PlanetSizeProbabilityPerType Name="PlanetTypeDesert">
+      <PlanetSizeProbability Name="PlanetSizeTiny"   Probability="3"/>
+      <PlanetSizeProbability Name="PlanetSizeSmall"  Probability="3"/>
+      <PlanetSizeProbability Name="PlanetSizeMedium" Probability="3"/>
+      <PlanetSizeProbability Name="PlanetSizeLarge"  Probability="2"/>
+      <PlanetSizeProbability Name="PlanetSizeHuge"   Probability="2"/>
+    </PlanetSizeProbabilityPerType>
+    <PlanetSizeProbabilityPerType Name="PlanetTypeArctic">
+      <PlanetSizeProbability Name="PlanetSizeTiny"   Probability="3"/>
+      <PlanetSizeProbability Name="PlanetSizeSmall"  Probability="3"/>
+      <PlanetSizeProbability Name="PlanetSizeMedium" Probability="3"/>
+      <PlanetSizeProbability Name="PlanetSizeLarge"  Probability="2"/>
+      <PlanetSizeProbability Name="PlanetSizeHuge"   Probability="2"/>
+    </PlanetSizeProbabilityPerType>
+    <PlanetSizeProbabilityPerType Name="PlanetTypeLava">
+      <PlanetSizeProbability Name="PlanetSizeTiny"   Probability="3"/>
+      <PlanetSizeProbability Name="PlanetSizeSmall"  Probability="4"/>
+      <PlanetSizeProbability Name="PlanetSizeMedium" Probability="4"/>
+      <PlanetSizeProbability Name="PlanetSizeLarge"  Probability="5"/>
+      <PlanetSizeProbability Name="PlanetSizeHuge"   Probability="5"/>
+    </PlanetSizeProbabilityPerType>
+    <PlanetSizeProbabilityPerType Name="PlanetTypeBarren">
+      <PlanetSizeProbability Name="PlanetSizeTiny"   Probability="3"/>
+      <PlanetSizeProbability Name="PlanetSizeSmall"  Probability="4"/>
+      <PlanetSizeProbability Name="PlanetSizeMedium" Probability="4"/>
+      <PlanetSizeProbability Name="PlanetSizeLarge"  Probability="5"/>
+      <PlanetSizeProbability Name="PlanetSizeHuge"   Probability="5"/>
+    </PlanetSizeProbabilityPerType>
+    <PlanetSizeProbabilityPerType Name="PlanetTypeAsteroids">
+      <PlanetSizeProbability Name="PlanetSizeTiny"   Probability="2"/>
+      <PlanetSizeProbability Name="PlanetSizeSmall"  Probability="3"/>
+      <PlanetSizeProbability Name="PlanetSizeMedium" Probability="4"/>
+      <PlanetSizeProbability Name="PlanetSizeLarge"  Probability="3"/>
+      <PlanetSizeProbability Name="PlanetSizeHuge"   Probability="2"/>
+    </PlanetSizeProbabilityPerType>
+    <PlanetSizeProbabilityPerType Name="PlanetTypeGasHydrogen">
+      <PlanetSizeProbability Name="PlanetSizeTiny"   Probability="0"/>
+      <PlanetSizeProbability Name="PlanetSizeSmall"  Probability="0"/>
+      <PlanetSizeProbability Name="PlanetSizeMedium" Probability="0"/>
+      <PlanetSizeProbability Name="PlanetSizeLarge"  Probability="2"/>
+      <PlanetSizeProbability Name="PlanetSizeHuge"   Probability="3"/>
+    </PlanetSizeProbabilityPerType>
+    <PlanetSizeProbabilityPerType Name="PlanetTypeGasHelium">
+      <PlanetSizeProbability Name="PlanetSizeTiny"   Probability="0"/>
+      <PlanetSizeProbability Name="PlanetSizeSmall"  Probability="0"/>
+      <PlanetSizeProbability Name="PlanetSizeMedium" Probability="0"/>
+      <PlanetSizeProbability Name="PlanetSizeLarge"  Probability="2"/>
+      <PlanetSizeProbability Name="PlanetSizeHuge"   Probability="2"/>
+    </PlanetSizeProbabilityPerType>
+    <PlanetSizeProbabilityPerType Name="PlanetTypeGasMethane">
+      <PlanetSizeProbability Name="PlanetSizeTiny"   Probability="0"/>
+      <PlanetSizeProbability Name="PlanetSizeSmall"  Probability="0"/>
+      <PlanetSizeProbability Name="PlanetSizeMedium" Probability="1"/>
+      <PlanetSizeProbability Name="PlanetSizeLarge"  Probability="3"/>
+      <PlanetSizeProbability Name="PlanetSizeHuge"   Probability="2"/>
+    </PlanetSizeProbabilityPerType>
+  </PlanetSizeProbabilitiesPerType>
+
+  <!-- =============MOONS============ -->
+
+  <!-- These are percents of chance -->
+  <MoonNumberProbabilitiesPerPlanetType>
+    <MoonNumberProbabilityPerPlanetType Name="PlanetTypeTerran">
+      <MoonNumberChance Number="0" Probability="50"/>
+      <MoonNumberChance Number="1" Probability="50"/>
+    </MoonNumberProbabilityPerPlanetType>
+    <MoonNumberProbabilityPerPlanetType Name="PlanetTypeJungle">
+      <MoonNumberChance Number="0" Probability="50"/>
+      <MoonNumberChance Number="1" Probability="50"/>
+    </MoonNumberProbabilityPerPlanetType>
+    <MoonNumberProbabilityPerPlanetType Name="PlanetTypeOcean">
+      <MoonNumberChance Number="0" Probability="50"/>
+      <MoonNumberChance Number="1" Probability="50"/>
+    </MoonNumberProbabilityPerPlanetType>
+    <MoonNumberProbabilityPerPlanetType Name="PlanetTypeArid">
+      <MoonNumberChance Number="0" Probability="50"/>
+      <MoonNumberChance Number="1" Probability="50"/>
+    </MoonNumberProbabilityPerPlanetType>
+    <MoonNumberProbabilityPerPlanetType Name="PlanetTypeTundra">
+      <MoonNumberChance Number="0" Probability="50"/>
+      <MoonNumberChance Number="1" Probability="50"/>
+    </MoonNumberProbabilityPerPlanetType>
+    <MoonNumberProbabilityPerPlanetType Name="PlanetTypeDesert">
+      <MoonNumberChance Number="0" Probability="50"/>
+      <MoonNumberChance Number="1" Probability="50"/>
+    </MoonNumberProbabilityPerPlanetType>
+    <MoonNumberProbabilityPerPlanetType Name="PlanetTypeArctic">
+      <MoonNumberChance Number="0" Probability="50"/>
+      <MoonNumberChance Number="1" Probability="50"/>
+    </MoonNumberProbabilityPerPlanetType>
+    <MoonNumberProbabilityPerPlanetType Name="PlanetTypeLava">
+      <MoonNumberChance Number="0" Probability="50"/>
+      <MoonNumberChance Number="1" Probability="50"/>
+    </MoonNumberProbabilityPerPlanetType>
+    <MoonNumberProbabilityPerPlanetType Name="PlanetTypeBarren">
+      <MoonNumberChance Number="0" Probability="50"/>
+      <MoonNumberChance Number="1" Probability="50"/>
+    </MoonNumberProbabilityPerPlanetType>
+    <MoonNumberProbabilityPerPlanetType Name="PlanetTypeAsteroids">
+      <MoonNumberChance Number="0" Probability="100"/>
+      <MoonNumberChance Number="1" Probability="0"/>
+    </MoonNumberProbabilityPerPlanetType>
+    <MoonNumberProbabilityPerPlanetType Name="PlanetTypeGasHydrogen">
+      <MoonNumberChance Number="0" Probability="50"/>
+      <MoonNumberChance Number="1" Probability="50"/>
+    </MoonNumberProbabilityPerPlanetType>
+    <MoonNumberProbabilityPerPlanetType Name="PlanetTypeGasHelium">
+      <MoonNumberChance Number="0" Probability="50"/>
+      <MoonNumberChance Number="1" Probability="50"/>
+    </MoonNumberProbabilityPerPlanetType>
+    <MoonNumberProbabilityPerPlanetType Name="PlanetTypeGasMethane">
+      <MoonNumberChance Number="0" Probability="50"/>
+      <MoonNumberChance Number="1" Probability="50"/>
+    </MoonNumberProbabilityPerPlanetType>
+  </MoonNumberProbabilitiesPerPlanetType>
+
+  <!-- =============ANOMALIES AND TEMPLES============ -->
+
+  <!-- This is a percent of chance -->
+  <AnomalyBaseChance>60</AnomalyBaseChance>
+
+  <PlanetAnomaliesProbabilityScale>
+    <PlanetAnomalyProbablityScale Probability="0" ScaledProbability="0" />
+    <PlanetAnomalyProbablityScale Probability="1" ScaledProbability="1" />
+    <PlanetAnomalyProbablityScale Probability="2" ScaledProbability="2" />
+    <PlanetAnomalyProbablityScale Probability="3" ScaledProbability="3" />
+    <PlanetAnomalyProbablityScale Probability="4" ScaledProbability="4" />
+  </PlanetAnomaliesProbabilityScale>
+  <PlanetAnomaliesPerPlanetType>
+    <PlanetTypeAnomaly Name="PlanetTypeTerran">
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly01"	Probability="1" />
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly02"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly03"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly04"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly05"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly06"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly07"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly08"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly09"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly10"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly11"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly12"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly13"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly14"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly15"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly16"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly17"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly18"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly19"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly20"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly21"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly22"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly23"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly24"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly25"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly26"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly27"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly28"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly29"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly30"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly31"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly32"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly33"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly34"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly35"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly36"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly37"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly38"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly39"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly40"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly41"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly42"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly43"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly44"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly45"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly46"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly47"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly48"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly49"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly50"	Probability="0"	/>
+    </PlanetTypeAnomaly>
+
+    <PlanetTypeAnomaly	Name="PlanetTypeJungle">
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly01"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly02"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly03"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly04"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly05"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly06"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly07"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly08"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly09"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly10"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly11"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly12"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly13"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly14"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly15"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly16"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly17"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly18"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly19"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly20"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly21"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly22"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly23"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly24"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly25"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly26"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly27"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly28"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly29"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly30"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly31"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly32"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly33"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly34"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly35"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly36"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly37"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly38"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly39"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly40"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly41"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly42"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly43"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly44"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly45"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly46"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly47"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly48"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly49"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly50"	Probability="0"	/>
+    </PlanetTypeAnomaly>
+
+    <PlanetTypeAnomaly	Name="PlanetTypeOcean">
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly01" 	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly02"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly03"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly04"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly05"	Probability="3"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly06"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly07"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly08"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly09"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly10"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly11"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly12"	Probability="4"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly13"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly14"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly15"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly16"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly17"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly18"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly19"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly20"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly21"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly22"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly23"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly24"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly25"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly26"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly27"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly28"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly29"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly30"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly31"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly32"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly33"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly34"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly35"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly36"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly37"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly38"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly39"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly40"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly41"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly42"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly43"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly44"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly45"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly46"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly47"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly48"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly49"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly50"	Probability="0"	/>
+    </PlanetTypeAnomaly>
+
+    <PlanetTypeAnomaly	Name="PlanetTypeArid">
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly01" 	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly02"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly03"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly04"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly05"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly06"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly07"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly08"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly09"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly10"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly11"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly12"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly13"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly14"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly15"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly16"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly17"	Probability="3"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly18"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly19"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly20"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly21"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly22"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly23"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly24"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly25"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly26"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly27"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly28"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly29"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly30"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly31"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly32"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly33"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly34"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly35"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly36"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly37"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly38"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly39"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly40"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly41"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly42"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly43"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly44"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly45"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly46"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly47"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly48"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly49"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly50"	Probability="2"	/>
+    </PlanetTypeAnomaly>
+
+    <PlanetTypeAnomaly	Name="PlanetTypeTundra">
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly01" 	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly02"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly03"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly04"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly05"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly06"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly07"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly08"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly09"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly10"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly11"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly12"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly13"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly14"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly15"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly16"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly17"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly18"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly19"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly20"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly21"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly22"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly23"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly24"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly25"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly26"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly27"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly28"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly29"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly30"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly31"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly32"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly33"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly34"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly35"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly36"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly37"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly38"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly39"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly40"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly41"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly42"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly43"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly44"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly45"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly46"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly47"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly48"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly49"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly50"	Probability="1"	/>
+    </PlanetTypeAnomaly>
+
+    <PlanetTypeAnomaly	Name="PlanetTypeDesert">
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly01" 	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly02"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly03"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly04"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly05"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly06"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly07"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly08"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly09"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly10"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly11"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly12"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly13"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly14"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly15"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly16"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly17"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly18"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly19"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly20"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly21"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly22"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly23"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly24"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly25"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly26"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly27"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly28"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly29"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly30"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly31"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly32"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly33"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly34"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly35"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly36"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly37"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly38"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly39"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly40"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly41"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly42"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly43"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly44"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly45"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly46"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly47"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly48"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly49"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly50"	Probability="1"	/>
+    </PlanetTypeAnomaly>
+
+    <PlanetTypeAnomaly	Name="PlanetTypeArctic">
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly01" 	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly02"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly03"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly04"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly05"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly06"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly07"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly08"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly09"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly10"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly11"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly12"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly13"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly14"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly15"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly16"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly17"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly18"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly19"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly20"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly21"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly22"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly23"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly24"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly25"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly26"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly27"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly28"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly29"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly30"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly31"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly32"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly33"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly34"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly35"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly36"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly37"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly38"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly39"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly40"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly41"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly42"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly43"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly44"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly45"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly46"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly47"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly48"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly49"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly50"	Probability="1"	/>
+    </PlanetTypeAnomaly>
+
+    <PlanetTypeAnomaly	Name="PlanetTypeLava">
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly01" 	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly02"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly03"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly04"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly05"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly06"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly07"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly08"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly09"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly10"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly11"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly12"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly13"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly14"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly15"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly16"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly17"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly18"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly19"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly20"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly21"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly22"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly23"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly24"	Probability="3"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly25"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly26"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly27"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly28"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly29"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly30"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly31"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly32"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly33"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly34"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly35"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly36"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly37"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly38"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly39"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly40"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly41"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly42"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly43"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly44"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly45"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly46"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly47"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly48"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly49"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly50"	Probability="2"	/>
+    </PlanetTypeAnomaly>
+
+    <PlanetTypeAnomaly	Name="PlanetTypeBarren">
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly01" 	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly02"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly03"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly04"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly05"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly06"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly07"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly08"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly09"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly10"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly11"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly12"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly13"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly14"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly15"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly16"	Probability="3"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly17"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly18"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly19"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly20"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly21"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly22"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly23"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly24"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly25"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly26"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly27"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly28"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly29"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly30"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly31"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly32"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly33"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly34"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly35"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly36"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly37"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly38"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly39"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly40"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly41"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly42"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly43"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly44"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly45"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly46"	Probability="3"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly47"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly48"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly49"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly50"	Probability="2"	/>
+    </PlanetTypeAnomaly>
+
+    <PlanetTypeAnomaly	Name="PlanetTypeAsteroids">
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly01" 	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly02"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly03"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly04"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly05"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly06"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly07"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly08"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly09"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly10"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly11"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly12"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly13"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly14"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly15"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly16"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly17"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly18"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly19"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly20"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly21"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly22"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly23"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly24"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly25"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly26"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly27"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly28"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly29"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly30"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly31"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly32"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly33"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly34"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly35"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly36"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly37"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly38"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly39"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly40"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly41"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly42"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly43"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly44"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly45"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly46"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly47"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly48"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly49"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly50"	Probability="2"	/>
+    </PlanetTypeAnomaly>
+
+    <PlanetTypeAnomaly	Name="PlanetTypeGasHydrogen">
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly01" 	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly02"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly03"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly04"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly05"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly06"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly07"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly08"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly09"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly10"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly11"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly12"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly13"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly14"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly15"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly16"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly17"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly18"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly19"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly20"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly21"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly22"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly23"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly24"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly25"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly26"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly27"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly28"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly29"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly30"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly31"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly32"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly33"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly34"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly35"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly36"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly37"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly38"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly39"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly40"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly41"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly42"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly43"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly44"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly45"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly46"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly47"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly48"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly49"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly50"	Probability="2"	/>
+    </PlanetTypeAnomaly>
+
+    <PlanetTypeAnomaly	Name="PlanetTypeGasHelium">
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly01" 	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly02"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly03"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly04"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly05"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly06"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly07"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly08"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly09"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly10"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly11"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly12"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly13"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly14"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly15"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly16"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly17"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly18"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly19"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly20"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly21"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly22"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly23"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly24"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly25"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly26"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly27"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly28"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly29"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly30"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly31"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly32"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly33"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly34"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly35"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly36"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly37"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly38"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly39"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly40"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly41"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly42"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly43"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly44"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly45"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly46"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly47"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly48"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly49"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly50"	Probability="2"	/>
+    </PlanetTypeAnomaly>
+
+    <PlanetTypeAnomaly	Name="PlanetTypeGasMethane">
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly01" 	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly02"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly03"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly04"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly05"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly06"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly07"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly08"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly09"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly10"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly11"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly12"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly13"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly14"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly15"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly16"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly17"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly18"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly19"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly20"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly21"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly22"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly23"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly24"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly25"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly26"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly27"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly28"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly29"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly30"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly31"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly32"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly33"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly34"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly35"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly36"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly37"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly38"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly39"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly40"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly41"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly42"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly43"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly44"	Probability="0"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly45"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly46"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly47"	Probability="1"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly48"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly49"	Probability="2"	/>
+      <PlanetAnomalyPerPlanetType	Name="PlanetAnomaly50"	Probability="2"	/>
+    </PlanetTypeAnomaly>
+  </PlanetAnomaliesPerPlanetType>
+
+  <!-- These are percents of chance -->
+  <TempleChancesPerStarType>
+    <TempleChancePerStarType Name="StarTypeWhite"         Probability="15"/>
+    <TempleChancePerStarType Name="StarTypeYellow"        Probability="15"/>
+    <TempleChancePerStarType Name="StarTypeBlue"          Probability="15"/>
+    <TempleChancePerStarType Name="StarTypeProtostar"     Probability="20"/>
+    <TempleChancePerStarType Name="StarTypeRedSupergiant" Probability="25"/>
+    <TempleChancePerStarType Name="StarTypeDouble"        Probability="25"/>
+    <TempleChancePerStarType Name="StarTypeRedDwarf"      Probability="35"/>
+    <TempleChancePerStarType Name="StarTypeWhiteDwarf"    Probability="35"/>
+  </TempleChancesPerStarType>
+
+  <TempleTypes>
+    <TempleType Name ="Temple01" Probability="1"/>
+    <TempleType Name ="Temple02" Probability="1"/>
+    <TempleType Name ="Temple03" Probability="1"/>
+    <TempleType Name ="Temple04" Probability="1"/>
+    <TempleType Name ="Temple05" Probability="1"/>
+    <TempleType Name ="Temple06" Probability="1"/>
+    <TempleType Name ="Temple07" Probability="1"/>
+    <TempleType Name ="Temple08" Probability="1"/>
+    <TempleType Name ="Temple09" Probability="1"/>
+    <TempleType Name ="Temple10" Probability="1"/>
+    <TempleType Name ="Temple11" Probability="1"/>
+    <TempleType Name ="Temple12" Probability="1"/>
+    <TempleType Name ="Temple13" Probability="1"/>
+    <TempleType Name ="Temple14" Probability="1"/>
+    <TempleType Name ="Temple15" Probability="1"/>
+  </TempleTypes>
+
+  <!-- =============STRATEGIC RESOURCES============ -->
+
+  <ResourceDepositSizeIterations>
+    <ResourceDepositSizeIteration Iteration="1" DepositSize="2"/>
+    <ResourceDepositSizeIteration Iteration="2" DepositSize="1"/>
+    <ResourceDepositSizeIteration Iteration="3" DepositSize="3"/>
+    <ResourceDepositSizeIteration Iteration="4" DepositSize="1"/>
+    <ResourceDepositSizeIteration Iteration="5" DepositSize="2"/>
+    <ResourceDepositSizeIteration Iteration="6" DepositSize="1"/>
+  </ResourceDepositSizeIterations>
+
+  <PlanetStrategicResourceProbabilitiesScale>
+    <PlanetStrategicResourceProbabilityScale Probability="0" ScaledProbability="0" />
+    <PlanetStrategicResourceProbabilityScale Probability="1" ScaledProbability="1" />
+    <PlanetStrategicResourceProbabilityScale Probability="2" ScaledProbability="2" />
+    <PlanetStrategicResourceProbabilityScale Probability="3" ScaledProbability="3" />
+    <PlanetStrategicResourceProbabilityScale Probability="4" ScaledProbability="4" />
+  </PlanetStrategicResourceProbabilitiesScale>
+
+  <PlanetStrategicResourcesPerPlanetType>
+    <PlanetTypeStrategicResource	Name="PlanetTypeTerran">
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceTitanium"		Probability="3"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHyperium"	    Probability="1"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHexaferrum"	  Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAnti-Matter"	  Probability="2"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceOrichalcedon"	Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceSiderite"	    Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAdamantium"	  Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceQuadrinite"	  Probability="0"	/>
+    </PlanetTypeStrategicResource>
+
+    <PlanetTypeStrategicResource	Name="PlanetTypeJungle">
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceTitanium"		Probability="2"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHyperium"	    Probability="3"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHexaferrum"	  Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAnti-Matter"	  Probability="1"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceOrichalcedon"	Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceSiderite"	    Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAdamantium"	  Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceQuadrinite"	  Probability="0"	/>
+    </PlanetTypeStrategicResource>
+
+    <PlanetTypeStrategicResource	Name="PlanetTypeOcean">
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceTitanium"		Probability="1"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHyperium"	    Probability="2"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHexaferrum"	  Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAnti-Matter"	  Probability="3"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceOrichalcedon"	Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceSiderite"	    Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAdamantium"	  Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceQuadrinite"	  Probability="0"	/>
+    </PlanetTypeStrategicResource>
+
+    <PlanetTypeStrategicResource	Name="PlanetTypeArid">
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceTitanium"		Probability="3"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHyperium"	    Probability="2"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHexaferrum"	  Probability="1"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAnti-Matter"	  Probability="1"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceOrichalcedon"	Probability="1"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceSiderite"	    Probability="1"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAdamantium"	  Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceQuadrinite"	  Probability="0"	/>
+    </PlanetTypeStrategicResource>
+
+    <PlanetTypeStrategicResource	Name="PlanetTypeTundra">
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceTitanium"		Probability="2"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHyperium"	    Probability="2"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHexaferrum"	  Probability="1"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAnti-Matter"	  Probability="2"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceOrichalcedon"	Probability="1"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceSiderite"	    Probability="1"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAdamantium"	  Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceQuadrinite"	  Probability="0"	/>
+    </PlanetTypeStrategicResource>
+
+    <PlanetTypeStrategicResource	Name="PlanetTypeDesert">
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceTitanium"		Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHyperium"	    Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHexaferrum"	  Probability="3"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAnti-Matter"	  Probability="1"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceOrichalcedon"	Probability="2"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceSiderite"	    Probability="1"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAdamantium"	  Probability="1"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceQuadrinite"	  Probability="0"	/>
+    </PlanetTypeStrategicResource>
+
+    <PlanetTypeStrategicResource	Name="PlanetTypeArctic">
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceTitanium"		Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHyperium"	    Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHexaferrum"	  Probability="2"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAnti-Matter"	  Probability="1"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceOrichalcedon"	Probability="3"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceSiderite"	    Probability="1"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAdamantium"	  Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceQuadrinite"	  Probability="0"	/>
+    </PlanetTypeStrategicResource>
+
+    <PlanetTypeStrategicResource	Name="PlanetTypeLava">
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceTitanium"		Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHyperium"	    Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHexaferrum"	  Probability="3"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAnti-Matter"	  Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceOrichalcedon"	Probability="1"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceSiderite"	    Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAdamantium"	  Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceQuadrinite"	  Probability="0"	/>
+    </PlanetTypeStrategicResource>
+
+    <PlanetTypeStrategicResource	Name="PlanetTypeBarren">
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceTitanium"		Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHyperium"	    Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHexaferrum"	  Probability="1"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAnti-Matter"	  Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceOrichalcedon"	Probability="2"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceSiderite"	    Probability="3"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAdamantium"	  Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceQuadrinite"	  Probability="0"	/>
+    </PlanetTypeStrategicResource>
+
+    <PlanetTypeStrategicResource	Name="PlanetTypeAsteroids">
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceTitanium"		Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHyperium"	    Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHexaferrum"	  Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAnti-Matter"	  Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceOrichalcedon"	Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceSiderite"	    Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAdamantium"	  Probability="3"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceQuadrinite"	  Probability="3"	/>
+    </PlanetTypeStrategicResource>
+
+    <PlanetTypeStrategicResource	Name="PlanetTypeGasHydrogen">
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceTitanium"		Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHyperium"	    Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHexaferrum"	  Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAnti-Matter"	  Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceOrichalcedon"	Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceSiderite"	    Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAdamantium"	  Probability="1"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceQuadrinite"	  Probability="2"	/>
+    </PlanetTypeStrategicResource>
+
+    <PlanetTypeStrategicResource	Name="PlanetTypeGasHelium">
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceTitanium"		Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHyperium"	    Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHexaferrum"	  Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAnti-Matter"	  Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceOrichalcedon"  Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceSiderite"	    Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAdamantium"	  Probability="2"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceQuadrinite"	  Probability="1"	/>
+    </PlanetTypeStrategicResource>
+
+    <PlanetTypeStrategicResource	Name="PlanetTypeGasMethane">
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceTitanium"	  Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHyperium"	    Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceHexaferrum"	  Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAnti-Matter"	  Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceOrichalcedon"  Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceSiderite"	    Probability="0"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceAdamantium"	  Probability="2"	/>
+      <PlanetStrategicResourcePerPlanetType	Name="PlanetStrategicResourceQuadrinite"	  Probability="2"	/>
+    </PlanetTypeStrategicResource>
+  </PlanetStrategicResourcesPerPlanetType>
+
+  <!-- =============LUXURY============ -->
+
+  <PlanetLuxuryProbabilitiesScale>
+    <PlanetLuxuryProbablityScale Probability="0" ScaledProbability="1" />
+    <PlanetLuxuryProbablityScale Probability="1" ScaledProbability="1" />
+    <PlanetLuxuryProbablityScale Probability="2" ScaledProbability="1" />
+    <PlanetLuxuryProbablityScale Probability="3" ScaledProbability="1" />
+    <PlanetLuxuryProbablityScale Probability="4" ScaledProbability="1" />
+  </PlanetLuxuryProbabilitiesScale>
+
+  <LuxuryResourceSpawnPriorities>
+    <LuxuryResourceSpawnPriority Name="PlanetLuxury1" Priority = "1"/>
+    <LuxuryResourceSpawnPriority Name="PlanetLuxury2" Priority = "1"/>
+    <LuxuryResourceSpawnPriority Name="PlanetLuxury3" Priority = "1"/>
+    <LuxuryResourceSpawnPriority Name="PlanetLuxury4" Priority = "1"/>
+    <LuxuryResourceSpawnPriority Name="PlanetLuxury5" Priority = "2"/>
+    <LuxuryResourceSpawnPriority Name="PlanetLuxury6" Priority = "2"/>
+    <LuxuryResourceSpawnPriority Name="PlanetLuxury7" Priority = "2"/>
+    <LuxuryResourceSpawnPriority Name="PlanetLuxury8" Priority = "2"/>
+    <LuxuryResourceSpawnPriority Name="PlanetLuxury9" Priority = "3"/>
+    <LuxuryResourceSpawnPriority Name="PlanetLuxury10" Priority = "3"/>
+    <LuxuryResourceSpawnPriority Name="PlanetLuxury11" Priority = "3"/>
+    <LuxuryResourceSpawnPriority Name="PlanetLuxury12" Priority = "3"/>
+    <LuxuryResourceSpawnPriority Name="PlanetLuxury13" Priority = "4"/>
+    <LuxuryResourceSpawnPriority Name="PlanetLuxury14" Priority = "4"/>
+    <LuxuryResourceSpawnPriority Name="PlanetLuxury15" Priority = "4"/>
+    <LuxuryResourceSpawnPriority Name="PlanetLuxury16" Priority = "4"/>
+  </LuxuryResourceSpawnPriorities>
+
+  <PlanetLuxuriesPerPlanetType>
+    <PlanetTypeLuxury	Name="PlanetTypeTerran">
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury1"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury2"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury3"	  Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury4"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury5"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury6"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury7"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury8"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury9"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury10"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury11"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury12"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury13"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury14"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury15"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury16"		Probability="1"	/>
+    </PlanetTypeLuxury>
+
+    <PlanetTypeLuxury	Name="PlanetTypeJungle">
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury1"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury2"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury3"	  Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury4"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury5"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury6"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury7"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury8"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury9"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury10"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury11"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury12"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury13"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury14"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury15"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury16"		Probability="1"	/>
+    </PlanetTypeLuxury>
+
+    <PlanetTypeLuxury	Name="PlanetTypeOcean">
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury1"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury2"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury3"	  Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury4"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury5"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury6"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury7"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury8"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury9"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury10"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury11"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury12"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury13"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury14"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury15"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury16"		Probability="1"	/>
+    </PlanetTypeLuxury>
+
+    <PlanetTypeLuxury	Name="PlanetTypeArid">
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury1"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury2"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury3"	  Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury4"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury5"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury6"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury7"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury8"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury9"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury10"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury11"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury12"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury13"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury14"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury15"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury16"		Probability="1"	/>
+    </PlanetTypeLuxury>
+
+    <PlanetTypeLuxury	Name="PlanetTypeTundra">
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury1"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury2"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury3"	  Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury4"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury5"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury6"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury7"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury8"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury9"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury10"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury11"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury12"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury13"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury14"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury15"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury16"		Probability="1"	/>
+    </PlanetTypeLuxury>
+
+    <PlanetTypeLuxury	Name="PlanetTypeDesert">
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury1"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury2"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury3"	  Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury4"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury5"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury6"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury7"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury8"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury9"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury10"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury11"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury12"	  Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury13"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury14"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury15"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury16"		Probability="4"	/>
+    </PlanetTypeLuxury>
+
+    <PlanetTypeLuxury	Name="PlanetTypeArctic">
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury1"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury2"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury3"	  Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury4"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury5"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury6"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury7"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury8"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury9"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury10"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury11"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury12"	  Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury13"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury14"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury15"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury16"		Probability="4"	/>
+    </PlanetTypeLuxury>
+
+    <PlanetTypeLuxury	Name="PlanetTypeLava">
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury1"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury2"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury3"	  Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury4"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury5"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury6"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury7"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury8"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury9"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury10"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury11"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury12"	  Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury13"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury14"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury15"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury16"		Probability="4"	/>
+    </PlanetTypeLuxury>
+
+    <PlanetTypeLuxury	Name="PlanetTypeBarren">
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury1"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury2"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury3"	  Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury4"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury5"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury6"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury7"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury8"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury9"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury10"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury11"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury12"	  Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury13"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury14"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury15"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury16"		Probability="4"	/>
+    </PlanetTypeLuxury>
+
+    <PlanetTypeLuxury	Name="PlanetTypeAsteroids">
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury1"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury2"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury3"	  Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury4"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury5"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury6"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury7"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury8"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury9"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury10"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury11"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury12"	  Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury13"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury14"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury15"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury16"		Probability="8"	/>
+    </PlanetTypeLuxury>
+
+    <PlanetTypeLuxury	Name="PlanetTypeGasHydrogen">
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury1"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury2"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury3"	  Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury4"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury5"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury6"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury7"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury8"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury9"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury10"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury11"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury12"	  Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury13"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury14"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury15"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury16"		Probability="8"	/>
+    </PlanetTypeLuxury>
+
+    <PlanetTypeLuxury	Name="PlanetTypeGasHelium">
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury1"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury2"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury3"	  Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury4"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury5"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury6"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury7"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury8"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury9"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury10"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury11"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury12"	  Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury13"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury14"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury15"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury16"		Probability="8"	/>
+    </PlanetTypeLuxury>
+
+    <PlanetTypeLuxury	Name="PlanetTypeGasMethane">
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury1"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury2"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury3"	  Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury4"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury5"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury6"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury7"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury8"		Probability="1"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury9"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury10"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury11"		Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury12"	  Probability="4"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury13"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury14"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury15"		Probability="8"	/>
+      <PlanetLuxuryPerPlanetType	Name="PlanetLuxury16"		Probability="8"	/>
+    </PlanetTypeLuxury>
+  </PlanetLuxuriesPerPlanetType>
+
+  <!-- =============OTHER PARAMETERS============ -->
+
+  <GenerationConstraints>
+    <MinStarsPerConstellation>5</MinStarsPerConstellation>
+
+    <!-- Distance in parsecs-->
+    <MinStarDistance>4</MinStarDistance>
+    <!-- Distance in parsecs-->
+    <MinEmpireDistance>12</MinEmpireDistance>
+  </GenerationConstraints>
+
+  <!-- =============LOCALISATION============ -->
+
+  <StarNames>
+    <StarName>%StarName1</StarName>
+    <StarName>%StarName2</StarName>
+    <StarName>%StarName3</StarName>
+    <StarName>%StarName4</StarName>
+    <StarName>%StarName5</StarName>
+    <StarName>%StarName6</StarName>
+    <StarName>%StarName7</StarName>
+    <StarName>%StarName8</StarName>
+    <StarName>%StarName9</StarName>
+    <StarName>%StarName10</StarName>
+    <StarName>%StarName11</StarName>
+    <StarName>%StarName12</StarName>
+    <StarName>%StarName13</StarName>
+    <StarName>%StarName14</StarName>
+    <StarName>%StarName15</StarName>
+    <StarName>%StarName16</StarName>
+    <StarName>%StarName17</StarName>
+    <StarName>%StarName18</StarName>
+    <StarName>%StarName19</StarName>
+    <StarName>%StarName20</StarName>
+    <StarName>%StarName21</StarName>
+    <StarName>%StarName22</StarName>
+    <StarName>%StarName23</StarName>
+    <StarName>%StarName24</StarName>
+    <StarName>%StarName25</StarName>
+    <StarName>%StarName26</StarName>
+    <StarName>%StarName27</StarName>
+    <StarName>%StarName28</StarName>
+    <StarName>%StarName29</StarName>
+    <StarName>%StarName30</StarName>
+    <StarName>%StarName31</StarName>
+    <StarName>%StarName32</StarName>
+    <StarName>%StarName33</StarName>
+    <StarName>%StarName34</StarName>
+    <StarName>%StarName35</StarName>
+    <StarName>%StarName36</StarName>
+    <StarName>%StarName37</StarName>
+    <StarName>%StarName38</StarName>
+    <StarName>%StarName39</StarName>
+    <StarName>%StarName40</StarName>
+    <StarName>%StarName41</StarName>
+    <StarName>%StarName42</StarName>
+    <StarName>%StarName43</StarName>
+    <StarName>%StarName44</StarName>
+    <StarName>%StarName45</StarName>
+    <StarName>%StarName46</StarName>
+    <StarName>%StarName47</StarName>
+    <StarName>%StarName48</StarName>
+    <StarName>%StarName49</StarName>
+    <StarName>%StarName50</StarName>
+    <StarName>%StarName51</StarName>
+    <StarName>%StarName52</StarName>
+    <StarName>%StarName53</StarName>
+    <StarName>%StarName54</StarName>
+    <StarName>%StarName55</StarName>
+    <StarName>%StarName56</StarName>
+    <StarName>%StarName57</StarName>
+    <StarName>%StarName58</StarName>
+    <StarName>%StarName59</StarName>
+    <StarName>%StarName60</StarName>
+    <StarName>%StarName61</StarName>
+    <StarName>%StarName62</StarName>
+    <StarName>%StarName63</StarName>
+    <StarName>%StarName64</StarName>
+    <StarName>%StarName65</StarName>
+    <StarName>%StarName66</StarName>
+    <StarName>%StarName67</StarName>
+    <StarName>%StarName68</StarName>
+    <StarName>%StarName69</StarName>
+    <StarName>%StarName70</StarName>
+    <StarName>%StarName71</StarName>
+    <StarName>%StarName72</StarName>
+    <StarName>%StarName73</StarName>
+    <StarName>%StarName74</StarName>
+    <StarName>%StarName75</StarName>
+    <StarName>%StarName76</StarName>
+    <StarName>%StarName77</StarName>
+    <StarName>%StarName78</StarName>
+    <StarName>%StarName79</StarName>
+    <StarName>%StarName80</StarName>
+    <StarName>%StarName81</StarName>
+    <StarName>%StarName82</StarName>
+    <StarName>%StarName83</StarName>
+    <StarName>%StarName84</StarName>
+    <StarName>%StarName85</StarName>
+    <StarName>%StarName86</StarName>
+    <StarName>%StarName87</StarName>
+    <StarName>%StarName88</StarName>
+    <StarName>%StarName89</StarName>
+    <StarName>%StarName90</StarName>
+    <StarName>%StarName91</StarName>
+    <StarName>%StarName92</StarName>
+    <StarName>%StarName93</StarName>
+    <StarName>%StarName94</StarName>
+    <StarName>%StarName95</StarName>
+    <StarName>%StarName96</StarName>
+    <StarName>%StarName97</StarName>
+    <StarName>%StarName98</StarName>
+    <StarName>%StarName99</StarName>
+    <StarName>%StarName100</StarName>
+    <StarName>%StarName101</StarName>
+    <StarName>%StarName102</StarName>
+    <StarName>%StarName103</StarName>
+    <StarName>%StarName104</StarName>
+    <StarName>%StarName105</StarName>
+    <StarName>%StarName106</StarName>
+    <StarName>%StarName107</StarName>
+    <StarName>%StarName108</StarName>
+    <StarName>%StarName109</StarName>
+    <StarName>%StarName110</StarName>
+    <StarName>%StarName111</StarName>
+    <StarName>%StarName112</StarName>
+    <StarName>%StarName113</StarName>
+    <StarName>%StarName114</StarName>
+    <StarName>%StarName115</StarName>
+    <StarName>%StarName116</StarName>
+    <StarName>%StarName117</StarName>
+    <StarName>%StarName118</StarName>
+    <StarName>%StarName119</StarName>
+    <StarName>%StarName120</StarName>
+    <StarName>%StarName121</StarName>
+    <StarName>%StarName122</StarName>
+    <StarName>%StarName123</StarName>
+    <StarName>%StarName124</StarName>
+    <StarName>%StarName125</StarName>
+    <StarName>%StarName126</StarName>
+    <StarName>%StarName127</StarName>
+    <StarName>%StarName128</StarName>
+    <StarName>%StarName129</StarName>
+    <StarName>%StarName130</StarName>
+    <StarName>%StarName131</StarName>
+    <StarName>%StarName132</StarName>
+    <StarName>%StarName133</StarName>
+    <StarName>%StarName134</StarName>
+    <StarName>%StarName135</StarName>
+    <StarName>%StarName136</StarName>
+    <StarName>%StarName137</StarName>
+    <StarName>%StarName138</StarName>
+    <StarName>%StarName139</StarName>
+    <StarName>%StarName140</StarName>
+    <StarName>%StarName141</StarName>
+    <StarName>%StarName142</StarName>
+    <StarName>%StarName143</StarName>
+    <StarName>%StarName144</StarName>
+    <StarName>%StarName145</StarName>
+    <StarName>%StarName146</StarName>
+    <StarName>%StarName147</StarName>
+    <StarName>%StarName148</StarName>
+    <StarName>%StarName149</StarName>
+    <StarName>%StarName150</StarName>
+    <StarName>%StarName151</StarName>
+    <StarName>%StarName152</StarName>
+    <StarName>%StarName153</StarName>
+    <StarName>%StarName154</StarName>
+    <StarName>%StarName155</StarName>
+    <StarName>%StarName156</StarName>
+    <StarName>%StarName157</StarName>
+    <StarName>%StarName158</StarName>
+    <StarName>%StarName159</StarName>
+    <StarName>%StarName160</StarName>
+    <StarName>%StarName161</StarName>
+    <StarName>%StarName162</StarName>
+    <StarName>%StarName163</StarName>
+    <StarName>%StarName164</StarName>
+    <StarName>%StarName165</StarName>
+    <StarName>%StarName166</StarName>
+    <StarName>%StarName167</StarName>
+    <StarName>%StarName168</StarName>
+    <StarName>%StarName169</StarName>
+    <StarName>%StarName170</StarName>
+    <StarName>%StarName171</StarName>
+    <StarName>%StarName172</StarName>
+    <StarName>%StarName173</StarName>
+    <StarName>%StarName174</StarName>
+    <StarName>%StarName175</StarName>
+    <StarName>%StarName176</StarName>
+    <StarName>%StarName177</StarName>
+    <StarName>%StarName178</StarName>
+    <StarName>%StarName179</StarName>
+    <StarName>%StarName180</StarName>
+    <StarName>%StarName181</StarName>
+    <StarName>%StarName182</StarName>
+    <StarName>%StarName183</StarName>
+    <StarName>%StarName184</StarName>
+    <StarName>%StarName185</StarName>
+    <StarName>%StarName186</StarName>
+    <StarName>%StarName187</StarName>
+    <StarName>%StarName188</StarName>
+    <StarName>%StarName189</StarName>
+    <StarName>%StarName190</StarName>
+    <StarName>%StarName191</StarName>
+    <StarName>%StarName192</StarName>
+    <StarName>%StarName193</StarName>
+    <StarName>%StarName194</StarName>
+    <StarName>%StarName195</StarName>
+    <StarName>%StarName196</StarName>
+    <StarName>%StarName197</StarName>
+    <StarName>%StarName198</StarName>
+    <StarName>%StarName199</StarName>
+    <StarName>%StarName200</StarName>
+    <StarName>%StarName201</StarName>
+    <StarName>%StarName202</StarName>
+    <StarName>%StarName203</StarName>
+    <StarName>%StarName204</StarName>
+    <StarName>%StarName205</StarName>
+    <StarName>%StarName206</StarName>
+    <StarName>%StarName207</StarName>
+    <StarName>%StarName208</StarName>
+    <StarName>%StarName209</StarName>
+    <StarName>%StarName210</StarName>
+    <StarName>%StarName211</StarName>
+    <StarName>%StarName212</StarName>
+    <StarName>%StarName213</StarName>
+    <StarName>%StarName214</StarName>
+    <StarName>%StarName215</StarName>
+    <StarName>%StarName216</StarName>
+    <StarName>%StarName217</StarName>
+    <StarName>%StarName218</StarName>
+    <StarName>%StarName219</StarName>
+    <StarName>%StarName220</StarName>
+    <StarName>%StarName221</StarName>
+    <StarName>%StarName222</StarName>
+    <StarName>%StarName223</StarName>
+    <StarName>%StarName224</StarName>
+    <StarName>%StarName225</StarName>
+    <StarName>%StarName226</StarName>
+    <StarName>%StarName227</StarName>
+    <StarName>%StarName228</StarName>
+    <StarName>%StarName229</StarName>
+    <StarName>%StarName230</StarName>
+    <StarName>%StarName231</StarName>
+    <StarName>%StarName232</StarName>
+    <StarName>%StarName233</StarName>
+    <StarName>%StarName234</StarName>
+    <StarName>%StarName235</StarName>
+    <StarName>%StarName236</StarName>
+    <StarName>%StarName237</StarName>
+    <StarName>%StarName238</StarName>
+    <StarName>%StarName239</StarName>
+    <StarName>%StarName240</StarName>
+    <StarName>%StarName241</StarName>
+    <StarName>%StarName242</StarName>
+    <StarName>%StarName243</StarName>
+    <StarName>%StarName244</StarName>
+    <StarName>%StarName245</StarName>
+    <StarName>%StarName246</StarName>
+    <StarName>%StarName247</StarName>
+    <StarName>%StarName248</StarName>
+    <StarName>%StarName249</StarName>
+    <StarName>%StarName250</StarName>
+  </StarNames>
+
+  <ConstellationNames>
+    <ConstellationName>%ConstellationName1</ConstellationName>
+    <ConstellationName>%ConstellationName2</ConstellationName>
+    <ConstellationName>%ConstellationName3</ConstellationName>
+    <ConstellationName>%ConstellationName4</ConstellationName>
+    <ConstellationName>%ConstellationName5</ConstellationName>
+    <ConstellationName>%ConstellationName6</ConstellationName>
+    <ConstellationName>%ConstellationName7</ConstellationName>
+    <ConstellationName>%ConstellationName8</ConstellationName>
+    <ConstellationName>%ConstellationName9</ConstellationName>
+    <ConstellationName>%ConstellationName10</ConstellationName>
+    <ConstellationName>%ConstellationName11</ConstellationName>
+    <ConstellationName>%ConstellationName12</ConstellationName>
+    <ConstellationName>%ConstellationName13</ConstellationName>
+    <ConstellationName>%ConstellationName14</ConstellationName>
+    <ConstellationName>%ConstellationName15</ConstellationName>
+    <ConstellationName>%ConstellationName16</ConstellationName>
+    <ConstellationName>%ConstellationName17</ConstellationName>
+    <ConstellationName>%ConstellationName18</ConstellationName>
+    <ConstellationName>%ConstellationName19</ConstellationName>
+    <ConstellationName>%ConstellationName20</ConstellationName>
+    <ConstellationName>%ConstellationName21</ConstellationName>
+    <ConstellationName>%ConstellationName22</ConstellationName>
+    <ConstellationName>%ConstellationName23</ConstellationName>
+    <ConstellationName>%ConstellationName24</ConstellationName>
+    <ConstellationName>%ConstellationName25</ConstellationName>
+    <ConstellationName>%ConstellationName26</ConstellationName>
+    <ConstellationName>%ConstellationName27</ConstellationName>
+    <ConstellationName>%ConstellationName28</ConstellationName>
+    <ConstellationName>%ConstellationName29</ConstellationName>
+    <ConstellationName>%ConstellationName30</ConstellationName>
+    <ConstellationName>%ConstellationName31</ConstellationName>
+    <ConstellationName>%ConstellationName32</ConstellationName>
+    <ConstellationName>%ConstellationName33</ConstellationName>
+    <ConstellationName>%ConstellationName34</ConstellationName>
+    <ConstellationName>%ConstellationName35</ConstellationName>
+    <ConstellationName>%ConstellationName36</ConstellationName>
+    <ConstellationName>%ConstellationName37</ConstellationName>
+    <ConstellationName>%ConstellationName38</ConstellationName>
+    <ConstellationName>%ConstellationName39</ConstellationName>
+    <ConstellationName>%ConstellationName40</ConstellationName>
+    <ConstellationName>%ConstellationName41</ConstellationName>
+    <ConstellationName>%ConstellationName42</ConstellationName>
+    <ConstellationName>%ConstellationName43</ConstellationName>
+    <ConstellationName>%ConstellationName44</ConstellationName>
+    <ConstellationName>%ConstellationName45</ConstellationName>
+    <ConstellationName>%ConstellationName46</ConstellationName>
+    <ConstellationName>%ConstellationName47</ConstellationName>
+    <ConstellationName>%ConstellationName48</ConstellationName>
+    <ConstellationName>%ConstellationName49</ConstellationName>
+    <ConstellationName>%ConstellationName50</ConstellationName>
+    <ConstellationName>%ConstellationName51</ConstellationName>
+    <ConstellationName>%ConstellationName52</ConstellationName>
+    <ConstellationName>%ConstellationName53</ConstellationName>
+    <ConstellationName>%ConstellationName54</ConstellationName>
+    <ConstellationName>%ConstellationName55</ConstellationName>
+    <ConstellationName>%ConstellationName56</ConstellationName>
+    <ConstellationName>%ConstellationName57</ConstellationName>
+    <ConstellationName>%ConstellationName58</ConstellationName>
+    <ConstellationName>%ConstellationName59</ConstellationName>
+    <ConstellationName>%ConstellationName60</ConstellationName>
+    <ConstellationName>%ConstellationName61</ConstellationName>
+    <ConstellationName>%ConstellationName62</ConstellationName>
+    <ConstellationName>%ConstellationName63</ConstellationName>
+    <ConstellationName>%ConstellationName64</ConstellationName>
+    <ConstellationName>%ConstellationName65</ConstellationName>
+    <ConstellationName>%ConstellationName66</ConstellationName>
+    <ConstellationName>%ConstellationName67</ConstellationName>
+    <ConstellationName>%ConstellationName68</ConstellationName>
+    <ConstellationName>%ConstellationName69</ConstellationName>
+    <ConstellationName>%ConstellationName70</ConstellationName>
+    <ConstellationName>%ConstellationName71</ConstellationName>
+    <ConstellationName>%ConstellationName72</ConstellationName>
+    <ConstellationName>%ConstellationName73</ConstellationName>
+    <ConstellationName>%ConstellationName74</ConstellationName>
+    <ConstellationName>%ConstellationName75</ConstellationName>
+    <ConstellationName>%ConstellationName76</ConstellationName>
+    <ConstellationName>%ConstellationName77</ConstellationName>
+    <ConstellationName>%ConstellationName78</ConstellationName>
+    <ConstellationName>%ConstellationName79</ConstellationName>
+    <ConstellationName>%ConstellationName80</ConstellationName>
+    <ConstellationName>%ConstellationName81</ConstellationName>
+  </ConstellationNames>
+
+</GenerationData>
