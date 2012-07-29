@@ -25,11 +25,11 @@ namespace Amplitude.GalaxyGenerator.Generation.Balancing
             foreach (StarSystem star in gal.Stars)
             {
                 Stars.Add(new BalancingStarSystem(star));
-                Stars.ForEach(delegate(BalancingStarSystem balSys)
-                {
-                    System.Diagnostics.Debug.WriteLine(balSys.toString());
-                });
             }
+            Stars.ForEach(delegate(BalancingStarSystem balSys)
+            {
+                System.Diagnostics.Debug.WriteLine(balSys.toString());
+            });
         }
 
     }

@@ -45,19 +45,22 @@ namespace Amplitude.GalaxyGenerator.Generation.Balancing
 
         public double calculateSystemWorth()
         {
-            //double totalScore = 0.0;
-            List<Planet> planets = attachedStarSystem.Planets;  
-            return maxPopulation();
+            double sumOfPlanetWorth = 0;
+            balancingPlanets.ForEach(delegate(BalancingPlanet p)
+            {
+                sumOfPlanetWorth += p.getWorth();
+            });
+            return maxPopulation() * sumOfPlanetWorth;
         }
 
         public String toString()
         {
-            String output = "This system contains the following planets:{ ";
-            attachedStarSystem.Planets.ForEach(delegate(Planet p){
-                output += p.type + "," + p.size + ";";
+            String output = "This system contains the following planets:{\n ";
+            balancingPlanets.ForEach(delegate(BalancingPlanet p){
+                output += "Type: " + p.type() + ", Size: " + p.size() + ", Anomaly: " + p.anomaly() + " , Population: " + p.population() + " , typeWorth: " + p.typeWorth() + " , anomalyWorth: " + p.getAnomalyWorth() +" , Planet Worth: " + p.getWorth() + "\n";
             });
-            output += " } And has total population: " + maxPopulation();
-            return output;
+            output += " }\n And has total population: " + maxPopulation() +"\n";
+            return output += "Total system worth: " + getSystemWorth() + "\n";
         }
     }
 }

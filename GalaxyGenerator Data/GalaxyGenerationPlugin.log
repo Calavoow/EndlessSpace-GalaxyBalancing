@@ -144,142 +144,151 @@ PlanetLuxury9
 PlanetLuxury4
 Luxuries actually deposited - end
 LuxuryResourceBuilder - Execute - end
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeSmall;PlanetTypeGasMethane,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium;PlanetTypeLava,PlanetSizeLarge; } And has total population: 22
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeSmall;PlanetTypeGasMethane,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium;PlanetTypeLava,PlanetSizeLarge; } And has total population: 22
-This system contains the following planets:{ PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium;PlanetTypeLava,PlanetSizeSmall;PlanetTypeArid,PlanetSizeSmall; } And has total population: 13
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeSmall;PlanetTypeGasMethane,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium;PlanetTypeLava,PlanetSizeLarge; } And has total population: 22
-This system contains the following planets:{ PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium;PlanetTypeLava,PlanetSizeSmall;PlanetTypeArid,PlanetSizeSmall; } And has total population: 13
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeAsteroids,PlanetSizeTiny;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 13
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeSmall;PlanetTypeGasMethane,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium;PlanetTypeLava,PlanetSizeLarge; } And has total population: 22
-This system contains the following planets:{ PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium;PlanetTypeLava,PlanetSizeSmall;PlanetTypeArid,PlanetSizeSmall; } And has total population: 13
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeAsteroids,PlanetSizeTiny;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 13
-This system contains the following planets:{ PlanetTypeGasHydrogen,PlanetSizeHuge;PlanetTypeArctic,PlanetSizeMedium;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 15
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeSmall;PlanetTypeGasMethane,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium;PlanetTypeLava,PlanetSizeLarge; } And has total population: 22
-This system contains the following planets:{ PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium;PlanetTypeLava,PlanetSizeSmall;PlanetTypeArid,PlanetSizeSmall; } And has total population: 13
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeAsteroids,PlanetSizeTiny;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 13
-This system contains the following planets:{ PlanetTypeGasHydrogen,PlanetSizeHuge;PlanetTypeArctic,PlanetSizeMedium;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 15
-This system contains the following planets:{ PlanetTypeArctic,PlanetSizeMedium;PlanetTypeGasHelium,PlanetSizeHuge;PlanetTypeOcean,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium; } And has total population: 19
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeSmall;PlanetTypeGasMethane,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium;PlanetTypeLava,PlanetSizeLarge; } And has total population: 22
-This system contains the following planets:{ PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium;PlanetTypeLava,PlanetSizeSmall;PlanetTypeArid,PlanetSizeSmall; } And has total population: 13
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeAsteroids,PlanetSizeTiny;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 13
-This system contains the following planets:{ PlanetTypeGasHydrogen,PlanetSizeHuge;PlanetTypeArctic,PlanetSizeMedium;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 15
-This system contains the following planets:{ PlanetTypeArctic,PlanetSizeMedium;PlanetTypeGasHelium,PlanetSizeHuge;PlanetTypeOcean,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium; } And has total population: 19
-This system contains the following planets:{ PlanetTypeDesert,PlanetSizeMedium;PlanetTypeJungle,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium; } And has total population: 18
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeSmall;PlanetTypeGasMethane,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium;PlanetTypeLava,PlanetSizeLarge; } And has total population: 22
-This system contains the following planets:{ PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium;PlanetTypeLava,PlanetSizeSmall;PlanetTypeArid,PlanetSizeSmall; } And has total population: 13
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeAsteroids,PlanetSizeTiny;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 13
-This system contains the following planets:{ PlanetTypeGasHydrogen,PlanetSizeHuge;PlanetTypeArctic,PlanetSizeMedium;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 15
-This system contains the following planets:{ PlanetTypeArctic,PlanetSizeMedium;PlanetTypeGasHelium,PlanetSizeHuge;PlanetTypeOcean,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium; } And has total population: 19
-This system contains the following planets:{ PlanetTypeDesert,PlanetSizeMedium;PlanetTypeJungle,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium; } And has total population: 18
-This system contains the following planets:{ PlanetTypeLava,PlanetSizeSmall;PlanetTypeLava,PlanetSizeSmall;PlanetTypeBarren,PlanetSizeSmall;PlanetTypeLava,PlanetSizeMedium; } And has total population: 9
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeSmall;PlanetTypeGasMethane,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium;PlanetTypeLava,PlanetSizeLarge; } And has total population: 22
-This system contains the following planets:{ PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium;PlanetTypeLava,PlanetSizeSmall;PlanetTypeArid,PlanetSizeSmall; } And has total population: 13
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeAsteroids,PlanetSizeTiny;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 13
-This system contains the following planets:{ PlanetTypeGasHydrogen,PlanetSizeHuge;PlanetTypeArctic,PlanetSizeMedium;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 15
-This system contains the following planets:{ PlanetTypeArctic,PlanetSizeMedium;PlanetTypeGasHelium,PlanetSizeHuge;PlanetTypeOcean,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium; } And has total population: 19
-This system contains the following planets:{ PlanetTypeDesert,PlanetSizeMedium;PlanetTypeJungle,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium; } And has total population: 18
-This system contains the following planets:{ PlanetTypeLava,PlanetSizeSmall;PlanetTypeLava,PlanetSizeSmall;PlanetTypeBarren,PlanetSizeSmall;PlanetTypeLava,PlanetSizeMedium; } And has total population: 9
-This system contains the following planets:{ PlanetTypeJungle,PlanetSizeMedium;PlanetTypeAsteroids,PlanetSizeLarge;PlanetTypeLava,PlanetSizeLarge;PlanetTypeTundra,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium; } And has total population: 27
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeSmall;PlanetTypeGasMethane,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium;PlanetTypeLava,PlanetSizeLarge; } And has total population: 22
-This system contains the following planets:{ PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium;PlanetTypeLava,PlanetSizeSmall;PlanetTypeArid,PlanetSizeSmall; } And has total population: 13
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeAsteroids,PlanetSizeTiny;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 13
-This system contains the following planets:{ PlanetTypeGasHydrogen,PlanetSizeHuge;PlanetTypeArctic,PlanetSizeMedium;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 15
-This system contains the following planets:{ PlanetTypeArctic,PlanetSizeMedium;PlanetTypeGasHelium,PlanetSizeHuge;PlanetTypeOcean,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium; } And has total population: 19
-This system contains the following planets:{ PlanetTypeDesert,PlanetSizeMedium;PlanetTypeJungle,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium; } And has total population: 18
-This system contains the following planets:{ PlanetTypeLava,PlanetSizeSmall;PlanetTypeLava,PlanetSizeSmall;PlanetTypeBarren,PlanetSizeSmall;PlanetTypeLava,PlanetSizeMedium; } And has total population: 9
-This system contains the following planets:{ PlanetTypeJungle,PlanetSizeMedium;PlanetTypeAsteroids,PlanetSizeLarge;PlanetTypeLava,PlanetSizeLarge;PlanetTypeTundra,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium; } And has total population: 27
-This system contains the following planets:{ PlanetTypeLava,PlanetSizeSmall; } And has total population: 2
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeSmall;PlanetTypeGasMethane,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium;PlanetTypeLava,PlanetSizeLarge; } And has total population: 22
-This system contains the following planets:{ PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium;PlanetTypeLava,PlanetSizeSmall;PlanetTypeArid,PlanetSizeSmall; } And has total population: 13
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeAsteroids,PlanetSizeTiny;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 13
-This system contains the following planets:{ PlanetTypeGasHydrogen,PlanetSizeHuge;PlanetTypeArctic,PlanetSizeMedium;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 15
-This system contains the following planets:{ PlanetTypeArctic,PlanetSizeMedium;PlanetTypeGasHelium,PlanetSizeHuge;PlanetTypeOcean,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium; } And has total population: 19
-This system contains the following planets:{ PlanetTypeDesert,PlanetSizeMedium;PlanetTypeJungle,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium; } And has total population: 18
-This system contains the following planets:{ PlanetTypeLava,PlanetSizeSmall;PlanetTypeLava,PlanetSizeSmall;PlanetTypeBarren,PlanetSizeSmall;PlanetTypeLava,PlanetSizeMedium; } And has total population: 9
-This system contains the following planets:{ PlanetTypeJungle,PlanetSizeMedium;PlanetTypeAsteroids,PlanetSizeLarge;PlanetTypeLava,PlanetSizeLarge;PlanetTypeTundra,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium; } And has total population: 27
-This system contains the following planets:{ PlanetTypeLava,PlanetSizeSmall; } And has total population: 2
-This system contains the following planets:{ PlanetTypeTundra,PlanetSizeSmall;PlanetTypeJungle,PlanetSizeLarge;PlanetTypeTundra,PlanetSizeSmall;PlanetTypeArid,PlanetSizeMedium; } And has total population: 21
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeSmall;PlanetTypeGasMethane,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium;PlanetTypeLava,PlanetSizeLarge; } And has total population: 22
-This system contains the following planets:{ PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium;PlanetTypeLava,PlanetSizeSmall;PlanetTypeArid,PlanetSizeSmall; } And has total population: 13
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeAsteroids,PlanetSizeTiny;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 13
-This system contains the following planets:{ PlanetTypeGasHydrogen,PlanetSizeHuge;PlanetTypeArctic,PlanetSizeMedium;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 15
-This system contains the following planets:{ PlanetTypeArctic,PlanetSizeMedium;PlanetTypeGasHelium,PlanetSizeHuge;PlanetTypeOcean,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium; } And has total population: 19
-This system contains the following planets:{ PlanetTypeDesert,PlanetSizeMedium;PlanetTypeJungle,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium; } And has total population: 18
-This system contains the following planets:{ PlanetTypeLava,PlanetSizeSmall;PlanetTypeLava,PlanetSizeSmall;PlanetTypeBarren,PlanetSizeSmall;PlanetTypeLava,PlanetSizeMedium; } And has total population: 9
-This system contains the following planets:{ PlanetTypeJungle,PlanetSizeMedium;PlanetTypeAsteroids,PlanetSizeLarge;PlanetTypeLava,PlanetSizeLarge;PlanetTypeTundra,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium; } And has total population: 27
-This system contains the following planets:{ PlanetTypeLava,PlanetSizeSmall; } And has total population: 2
-This system contains the following planets:{ PlanetTypeTundra,PlanetSizeSmall;PlanetTypeJungle,PlanetSizeLarge;PlanetTypeTundra,PlanetSizeSmall;PlanetTypeArid,PlanetSizeMedium; } And has total population: 21
-This system contains the following planets:{ PlanetTypeTerran,PlanetSizeMedium;PlanetTypeLava,PlanetSizeMedium;PlanetTypeGasHelium,PlanetSizeHuge;PlanetTypeAsteroids,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeSmall;PlanetTypeBarren,PlanetSizeLarge; } And has total population: 22
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeSmall;PlanetTypeGasMethane,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium;PlanetTypeLava,PlanetSizeLarge; } And has total population: 22
-This system contains the following planets:{ PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium;PlanetTypeLava,PlanetSizeSmall;PlanetTypeArid,PlanetSizeSmall; } And has total population: 13
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeAsteroids,PlanetSizeTiny;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 13
-This system contains the following planets:{ PlanetTypeGasHydrogen,PlanetSizeHuge;PlanetTypeArctic,PlanetSizeMedium;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 15
-This system contains the following planets:{ PlanetTypeArctic,PlanetSizeMedium;PlanetTypeGasHelium,PlanetSizeHuge;PlanetTypeOcean,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium; } And has total population: 19
-This system contains the following planets:{ PlanetTypeDesert,PlanetSizeMedium;PlanetTypeJungle,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium; } And has total population: 18
-This system contains the following planets:{ PlanetTypeLava,PlanetSizeSmall;PlanetTypeLava,PlanetSizeSmall;PlanetTypeBarren,PlanetSizeSmall;PlanetTypeLava,PlanetSizeMedium; } And has total population: 9
-This system contains the following planets:{ PlanetTypeJungle,PlanetSizeMedium;PlanetTypeAsteroids,PlanetSizeLarge;PlanetTypeLava,PlanetSizeLarge;PlanetTypeTundra,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium; } And has total population: 27
-This system contains the following planets:{ PlanetTypeLava,PlanetSizeSmall; } And has total population: 2
-This system contains the following planets:{ PlanetTypeTundra,PlanetSizeSmall;PlanetTypeJungle,PlanetSizeLarge;PlanetTypeTundra,PlanetSizeSmall;PlanetTypeArid,PlanetSizeMedium; } And has total population: 21
-This system contains the following planets:{ PlanetTypeTerran,PlanetSizeMedium;PlanetTypeLava,PlanetSizeMedium;PlanetTypeGasHelium,PlanetSizeHuge;PlanetTypeAsteroids,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeSmall;PlanetTypeBarren,PlanetSizeLarge; } And has total population: 22
-This system contains the following planets:{ PlanetTypeArctic,PlanetSizeMedium;PlanetTypeTundra,PlanetSizeLarge; } And has total population: 11
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeSmall;PlanetTypeGasMethane,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium;PlanetTypeLava,PlanetSizeLarge; } And has total population: 22
-This system contains the following planets:{ PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium;PlanetTypeLava,PlanetSizeSmall;PlanetTypeArid,PlanetSizeSmall; } And has total population: 13
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeAsteroids,PlanetSizeTiny;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 13
-This system contains the following planets:{ PlanetTypeGasHydrogen,PlanetSizeHuge;PlanetTypeArctic,PlanetSizeMedium;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 15
-This system contains the following planets:{ PlanetTypeArctic,PlanetSizeMedium;PlanetTypeGasHelium,PlanetSizeHuge;PlanetTypeOcean,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium; } And has total population: 19
-This system contains the following planets:{ PlanetTypeDesert,PlanetSizeMedium;PlanetTypeJungle,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium; } And has total population: 18
-This system contains the following planets:{ PlanetTypeLava,PlanetSizeSmall;PlanetTypeLava,PlanetSizeSmall;PlanetTypeBarren,PlanetSizeSmall;PlanetTypeLava,PlanetSizeMedium; } And has total population: 9
-This system contains the following planets:{ PlanetTypeJungle,PlanetSizeMedium;PlanetTypeAsteroids,PlanetSizeLarge;PlanetTypeLava,PlanetSizeLarge;PlanetTypeTundra,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium; } And has total population: 27
-This system contains the following planets:{ PlanetTypeLava,PlanetSizeSmall; } And has total population: 2
-This system contains the following planets:{ PlanetTypeTundra,PlanetSizeSmall;PlanetTypeJungle,PlanetSizeLarge;PlanetTypeTundra,PlanetSizeSmall;PlanetTypeArid,PlanetSizeMedium; } And has total population: 21
-This system contains the following planets:{ PlanetTypeTerran,PlanetSizeMedium;PlanetTypeLava,PlanetSizeMedium;PlanetTypeGasHelium,PlanetSizeHuge;PlanetTypeAsteroids,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeSmall;PlanetTypeBarren,PlanetSizeLarge; } And has total population: 22
-This system contains the following planets:{ PlanetTypeArctic,PlanetSizeMedium;PlanetTypeTundra,PlanetSizeLarge; } And has total population: 11
-This system contains the following planets:{ PlanetTypeTundra,PlanetSizeMedium;PlanetTypeTundra,PlanetSizeSmall;PlanetTypeGasMethane,PlanetSizeHuge; } And has total population: 13
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeSmall;PlanetTypeGasMethane,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium;PlanetTypeLava,PlanetSizeLarge; } And has total population: 22
-This system contains the following planets:{ PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium;PlanetTypeLava,PlanetSizeSmall;PlanetTypeArid,PlanetSizeSmall; } And has total population: 13
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeAsteroids,PlanetSizeTiny;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 13
-This system contains the following planets:{ PlanetTypeGasHydrogen,PlanetSizeHuge;PlanetTypeArctic,PlanetSizeMedium;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 15
-This system contains the following planets:{ PlanetTypeArctic,PlanetSizeMedium;PlanetTypeGasHelium,PlanetSizeHuge;PlanetTypeOcean,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium; } And has total population: 19
-This system contains the following planets:{ PlanetTypeDesert,PlanetSizeMedium;PlanetTypeJungle,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium; } And has total population: 18
-This system contains the following planets:{ PlanetTypeLava,PlanetSizeSmall;PlanetTypeLava,PlanetSizeSmall;PlanetTypeBarren,PlanetSizeSmall;PlanetTypeLava,PlanetSizeMedium; } And has total population: 9
-This system contains the following planets:{ PlanetTypeJungle,PlanetSizeMedium;PlanetTypeAsteroids,PlanetSizeLarge;PlanetTypeLava,PlanetSizeLarge;PlanetTypeTundra,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium; } And has total population: 27
-This system contains the following planets:{ PlanetTypeLava,PlanetSizeSmall; } And has total population: 2
-This system contains the following planets:{ PlanetTypeTundra,PlanetSizeSmall;PlanetTypeJungle,PlanetSizeLarge;PlanetTypeTundra,PlanetSizeSmall;PlanetTypeArid,PlanetSizeMedium; } And has total population: 21
-This system contains the following planets:{ PlanetTypeTerran,PlanetSizeMedium;PlanetTypeLava,PlanetSizeMedium;PlanetTypeGasHelium,PlanetSizeHuge;PlanetTypeAsteroids,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeSmall;PlanetTypeBarren,PlanetSizeLarge; } And has total population: 22
-This system contains the following planets:{ PlanetTypeArctic,PlanetSizeMedium;PlanetTypeTundra,PlanetSizeLarge; } And has total population: 11
-This system contains the following planets:{ PlanetTypeTundra,PlanetSizeMedium;PlanetTypeTundra,PlanetSizeSmall;PlanetTypeGasMethane,PlanetSizeHuge; } And has total population: 13
-This system contains the following planets:{ PlanetTypeLava,PlanetSizeLarge;PlanetTypeArctic,PlanetSizeSmall;PlanetTypeTundra,PlanetSizeSmall;PlanetTypeBarren,PlanetSizeMedium;PlanetTypeTundra,PlanetSizeSmall;PlanetTypeTundra,PlanetSizeMedium; } And has total population: 23
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeSmall;PlanetTypeGasMethane,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium;PlanetTypeLava,PlanetSizeLarge; } And has total population: 22
-This system contains the following planets:{ PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium;PlanetTypeLava,PlanetSizeSmall;PlanetTypeArid,PlanetSizeSmall; } And has total population: 13
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeAsteroids,PlanetSizeTiny;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 13
-This system contains the following planets:{ PlanetTypeGasHydrogen,PlanetSizeHuge;PlanetTypeArctic,PlanetSizeMedium;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 15
-This system contains the following planets:{ PlanetTypeArctic,PlanetSizeMedium;PlanetTypeGasHelium,PlanetSizeHuge;PlanetTypeOcean,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium; } And has total population: 19
-This system contains the following planets:{ PlanetTypeDesert,PlanetSizeMedium;PlanetTypeJungle,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium; } And has total population: 18
-This system contains the following planets:{ PlanetTypeLava,PlanetSizeSmall;PlanetTypeLava,PlanetSizeSmall;PlanetTypeBarren,PlanetSizeSmall;PlanetTypeLava,PlanetSizeMedium; } And has total population: 9
-This system contains the following planets:{ PlanetTypeJungle,PlanetSizeMedium;PlanetTypeAsteroids,PlanetSizeLarge;PlanetTypeLava,PlanetSizeLarge;PlanetTypeTundra,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium; } And has total population: 27
-This system contains the following planets:{ PlanetTypeLava,PlanetSizeSmall; } And has total population: 2
-This system contains the following planets:{ PlanetTypeTundra,PlanetSizeSmall;PlanetTypeJungle,PlanetSizeLarge;PlanetTypeTundra,PlanetSizeSmall;PlanetTypeArid,PlanetSizeMedium; } And has total population: 21
-This system contains the following planets:{ PlanetTypeTerran,PlanetSizeMedium;PlanetTypeLava,PlanetSizeMedium;PlanetTypeGasHelium,PlanetSizeHuge;PlanetTypeAsteroids,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeSmall;PlanetTypeBarren,PlanetSizeLarge; } And has total population: 22
-This system contains the following planets:{ PlanetTypeArctic,PlanetSizeMedium;PlanetTypeTundra,PlanetSizeLarge; } And has total population: 11
-This system contains the following planets:{ PlanetTypeTundra,PlanetSizeMedium;PlanetTypeTundra,PlanetSizeSmall;PlanetTypeGasMethane,PlanetSizeHuge; } And has total population: 13
-This system contains the following planets:{ PlanetTypeLava,PlanetSizeLarge;PlanetTypeArctic,PlanetSizeSmall;PlanetTypeTundra,PlanetSizeSmall;PlanetTypeBarren,PlanetSizeMedium;PlanetTypeTundra,PlanetSizeSmall;PlanetTypeTundra,PlanetSizeMedium; } And has total population: 23
-This system contains the following planets:{ PlanetTypeTundra,PlanetSizeSmall;PlanetTypeAsteroids,PlanetSizeMedium;PlanetTypeArid,PlanetSizeMedium; } And has total population: 12
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeSmall;PlanetTypeGasMethane,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium;PlanetTypeLava,PlanetSizeLarge; } And has total population: 22
-This system contains the following planets:{ PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium;PlanetTypeLava,PlanetSizeSmall;PlanetTypeArid,PlanetSizeSmall; } And has total population: 13
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeMedium;PlanetTypeAsteroids,PlanetSizeTiny;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 13
-This system contains the following planets:{ PlanetTypeGasHydrogen,PlanetSizeHuge;PlanetTypeArctic,PlanetSizeMedium;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeLava,PlanetSizeMedium; } And has total population: 15
-This system contains the following planets:{ PlanetTypeArctic,PlanetSizeMedium;PlanetTypeGasHelium,PlanetSizeHuge;PlanetTypeOcean,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium; } And has total population: 19
-This system contains the following planets:{ PlanetTypeDesert,PlanetSizeMedium;PlanetTypeJungle,PlanetSizeMedium;PlanetTypeArctic,PlanetSizeMedium;PlanetTypeDesert,PlanetSizeMedium; } And has total population: 18
-This system contains the following planets:{ PlanetTypeLava,PlanetSizeSmall;PlanetTypeLava,PlanetSizeSmall;PlanetTypeBarren,PlanetSizeSmall;PlanetTypeLava,PlanetSizeMedium; } And has total population: 9
-This system contains the following planets:{ PlanetTypeJungle,PlanetSizeMedium;PlanetTypeAsteroids,PlanetSizeLarge;PlanetTypeLava,PlanetSizeLarge;PlanetTypeTundra,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeMedium; } And has total population: 27
-This system contains the following planets:{ PlanetTypeLava,PlanetSizeSmall; } And has total population: 2
-This system contains the following planets:{ PlanetTypeTundra,PlanetSizeSmall;PlanetTypeJungle,PlanetSizeLarge;PlanetTypeTundra,PlanetSizeSmall;PlanetTypeArid,PlanetSizeMedium; } And has total population: 21
-This system contains the following planets:{ PlanetTypeTerran,PlanetSizeMedium;PlanetTypeLava,PlanetSizeMedium;PlanetTypeGasHelium,PlanetSizeHuge;PlanetTypeAsteroids,PlanetSizeLarge;PlanetTypeBarren,PlanetSizeSmall;PlanetTypeBarren,PlanetSizeLarge; } And has total population: 22
-This system contains the following planets:{ PlanetTypeArctic,PlanetSizeMedium;PlanetTypeTundra,PlanetSizeLarge; } And has total population: 11
-This system contains the following planets:{ PlanetTypeTundra,PlanetSizeMedium;PlanetTypeTundra,PlanetSizeSmall;PlanetTypeGasMethane,PlanetSizeHuge; } And has total population: 13
-This system contains the following planets:{ PlanetTypeLava,PlanetSizeLarge;PlanetTypeArctic,PlanetSizeSmall;PlanetTypeTundra,PlanetSizeSmall;PlanetTypeBarren,PlanetSizeMedium;PlanetTypeTundra,PlanetSizeSmall;PlanetTypeTundra,PlanetSizeMedium; } And has total population: 23
-This system contains the following planets:{ PlanetTypeTundra,PlanetSizeSmall;PlanetTypeAsteroids,PlanetSizeMedium;PlanetTypeArid,PlanetSizeMedium; } And has total population: 12
-This system contains the following planets:{ PlanetTypeArid,PlanetSizeTiny;PlanetTypeLava,PlanetSizeHuge;PlanetTypeDesert,PlanetSizeMedium;PlanetTypeTundra,PlanetSizeLarge; } And has total population: 18
+This system contains the following planets:{
+ Type: PlanetTypeArid, Size: PlanetSizeMedium, Anomaly:  , Population: 5 , typeWorth: 1.5 , anomalyWorth: 1 , Planet Worth: 37.5
+Type: PlanetTypeDesert, Size: PlanetSizeMedium, Anomaly:  , Population: 4 , typeWorth: 1 , anomalyWorth: 1 , Planet Worth: 16
+Type: PlanetTypeArctic, Size: PlanetSizeSmall, Anomaly:  , Population: 3 , typeWorth: 1 , anomalyWorth: 1 , Planet Worth: 9
+Type: PlanetTypeGasMethane, Size: PlanetSizeLarge, Anomaly:  , Population: 3 , typeWorth: 0.5 , anomalyWorth: 1 , Planet Worth: 4.5
+Type: PlanetTypeBarren, Size: PlanetSizeMedium, Anomaly:  , Population: 3 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 6
+Type: PlanetTypeLava, Size: PlanetSizeLarge, Anomaly:  , Population: 4 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 10.6666666666667
+ }
+ And has total population: 22
+Total system worth: 1840.66666666667
+
+This system contains the following planets:{
+ Type: PlanetTypeBarren, Size: PlanetSizeLarge, Anomaly: PlanetAnomaly40 , Population: 4 , typeWorth: 0.666666666666667 , anomalyWorth: 0.5 , Planet Worth: 5.33333333333333
+Type: PlanetTypeLava, Size: PlanetSizeMedium, Anomaly:  , Population: 3 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 6
+Type: PlanetTypeLava, Size: PlanetSizeSmall, Anomaly: PlanetAnomaly24 , Population: 2 , typeWorth: 0.666666666666667 , anomalyWorth: 0.666666666666667 , Planet Worth: 1.77777777777778
+Type: PlanetTypeArid, Size: PlanetSizeSmall, Anomaly: PlanetAnomaly04 , Population: 4 , typeWorth: 1.5 , anomalyWorth: 1.5 , Planet Worth: 36
+ }
+ And has total population: 13
+Total system worth: 638.444444444444
+
+This system contains the following planets:{
+ Type: PlanetTypeArid, Size: PlanetSizeMedium, Anomaly:  , Population: 5 , typeWorth: 1.5 , anomalyWorth: 1 , Planet Worth: 37.5
+Type: PlanetTypeAsteroids, Size: PlanetSizeTiny, Anomaly:  , Population: 1 , typeWorth: 0.5 , anomalyWorth: 1 , Planet Worth: 0.5
+Type: PlanetTypeBarren, Size: PlanetSizeLarge, Anomaly:  , Population: 4 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 10.6666666666667
+Type: PlanetTypeLava, Size: PlanetSizeMedium, Anomaly:  , Population: 3 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 6
+ }
+ And has total population: 13
+Total system worth: 710.666666666667
+
+This system contains the following planets:{
+ Type: PlanetTypeGasHydrogen, Size: PlanetSizeHuge, Anomaly:  , Population: 4 , typeWorth: 0.5 , anomalyWorth: 1 , Planet Worth: 8
+Type: PlanetTypeArctic, Size: PlanetSizeMedium, Anomaly:  , Population: 4 , typeWorth: 1 , anomalyWorth: 1 , Planet Worth: 16
+Type: PlanetTypeBarren, Size: PlanetSizeLarge, Anomaly: PlanetAnomaly49 , Population: 4 , typeWorth: 0.666666666666667 , anomalyWorth: 0.5 , Planet Worth: 5.33333333333333
+Type: PlanetTypeLava, Size: PlanetSizeMedium, Anomaly:  , Population: 3 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 6
+ }
+ And has total population: 15
+Total system worth: 530
+
+This system contains the following planets:{
+ Type: PlanetTypeArctic, Size: PlanetSizeMedium, Anomaly: PlanetAnomaly17 , Population: 4 , typeWorth: 1 , anomalyWorth: 1.5 , Planet Worth: 24
+Type: PlanetTypeGasHelium, Size: PlanetSizeHuge, Anomaly:  , Population: 4 , typeWorth: 0.5 , anomalyWorth: 1 , Planet Worth: 8
+Type: PlanetTypeOcean, Size: PlanetSizeLarge, Anomaly: PlanetAnomaly36 , Population: 8 , typeWorth: 2 , anomalyWorth: 0.666666666666667 , Planet Worth: 85.3333333333333
+Type: PlanetTypeBarren, Size: PlanetSizeMedium, Anomaly: PlanetAnomaly22 , Population: 3 , typeWorth: 0.666666666666667 , anomalyWorth: 0.666666666666667 , Planet Worth: 4
+ }
+ And has total population: 19
+Total system worth: 2305.33333333333
+
+This system contains the following planets:{
+ Type: PlanetTypeDesert, Size: PlanetSizeMedium, Anomaly: PlanetAnomaly35 , Population: 4 , typeWorth: 1 , anomalyWorth: 0.666666666666667 , Planet Worth: 10.6666666666667
+Type: PlanetTypeJungle, Size: PlanetSizeMedium, Anomaly:  , Population: 6 , typeWorth: 2 , anomalyWorth: 1 , Planet Worth: 72
+Type: PlanetTypeArctic, Size: PlanetSizeMedium, Anomaly:  , Population: 4 , typeWorth: 1 , anomalyWorth: 1 , Planet Worth: 16
+Type: PlanetTypeDesert, Size: PlanetSizeMedium, Anomaly: PlanetAnomaly27 , Population: 4 , typeWorth: 1 , anomalyWorth: 0.666666666666667 , Planet Worth: 10.6666666666667
+ }
+ And has total population: 18
+Total system worth: 1968
+
+This system contains the following planets:{
+ Type: PlanetTypeLava, Size: PlanetSizeSmall, Anomaly:  , Population: 2 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 2.66666666666667
+Type: PlanetTypeLava, Size: PlanetSizeSmall, Anomaly: PlanetAnomaly23 , Population: 2 , typeWorth: 0.666666666666667 , anomalyWorth: 0.666666666666667 , Planet Worth: 1.77777777777778
+Type: PlanetTypeBarren, Size: PlanetSizeSmall, Anomaly: PlanetAnomaly02 , Population: 2 , typeWorth: 0.666666666666667 , anomalyWorth: 1.5 , Planet Worth: 4
+Type: PlanetTypeLava, Size: PlanetSizeMedium, Anomaly: PlanetAnomaly37 , Population: 3 , typeWorth: 0.666666666666667 , anomalyWorth: 0.666666666666667 , Planet Worth: 4
+ }
+ And has total population: 9
+Total system worth: 112
+
+This system contains the following planets:{
+ Type: PlanetTypeJungle, Size: PlanetSizeMedium, Anomaly:  , Population: 6 , typeWorth: 2 , anomalyWorth: 1 , Planet Worth: 72
+Type: PlanetTypeAsteroids, Size: PlanetSizeLarge, Anomaly:  , Population: 3 , typeWorth: 0.5 , anomalyWorth: 1 , Planet Worth: 4.5
+Type: PlanetTypeLava, Size: PlanetSizeLarge, Anomaly:  , Population: 4 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 10.6666666666667
+Type: PlanetTypeTundra, Size: PlanetSizeLarge, Anomaly:  , Population: 7 , typeWorth: 1.5 , anomalyWorth: 1 , Planet Worth: 73.5
+Type: PlanetTypeBarren, Size: PlanetSizeLarge, Anomaly:  , Population: 4 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 10.6666666666667
+Type: PlanetTypeBarren, Size: PlanetSizeMedium, Anomaly:  , Population: 3 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 6
+ }
+ And has total population: 27
+Total system worth: 4788
+
+This system contains the following planets:{
+ Type: PlanetTypeLava, Size: PlanetSizeSmall, Anomaly:  , Population: 2 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 2.66666666666667
+ }
+ And has total population: 2
+Total system worth: 5.33333333333333
+
+This system contains the following planets:{
+ Type: PlanetTypeTundra, Size: PlanetSizeSmall, Anomaly: PlanetAnomaly22 , Population: 4 , typeWorth: 1.5 , anomalyWorth: 0.666666666666667 , Planet Worth: 16
+Type: PlanetTypeJungle, Size: PlanetSizeLarge, Anomaly:  , Population: 8 , typeWorth: 2 , anomalyWorth: 1 , Planet Worth: 128
+Type: PlanetTypeTundra, Size: PlanetSizeSmall, Anomaly: PlanetAnomaly30 , Population: 4 , typeWorth: 1.5 , anomalyWorth: 0.666666666666667 , Planet Worth: 16
+Type: PlanetTypeArid, Size: PlanetSizeMedium, Anomaly:  , Population: 5 , typeWorth: 1.5 , anomalyWorth: 1 , Planet Worth: 37.5
+ }
+ And has total population: 21
+Total system worth: 4147.5
+
+This system contains the following planets:{
+ Type: PlanetTypeTerran, Size: PlanetSizeMedium, Anomaly:  , Population: 6 , typeWorth: 2 , anomalyWorth: 1 , Planet Worth: 72
+Type: PlanetTypeLava, Size: PlanetSizeMedium, Anomaly:  , Population: 3 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 6
+Type: PlanetTypeGasHelium, Size: PlanetSizeHuge, Anomaly:  , Population: 4 , typeWorth: 0.5 , anomalyWorth: 1 , Planet Worth: 8
+Type: PlanetTypeAsteroids, Size: PlanetSizeLarge, Anomaly:  , Population: 3 , typeWorth: 0.5 , anomalyWorth: 1 , Planet Worth: 4.5
+Type: PlanetTypeBarren, Size: PlanetSizeSmall, Anomaly:  , Population: 2 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 2.66666666666667
+Type: PlanetTypeBarren, Size: PlanetSizeLarge, Anomaly:  , Population: 4 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 10.6666666666667
+ }
+ And has total population: 22
+Total system worth: 2284.33333333333
+
+This system contains the following planets:{
+ Type: PlanetTypeArctic, Size: PlanetSizeMedium, Anomaly:  , Population: 4 , typeWorth: 1 , anomalyWorth: 1 , Planet Worth: 16
+Type: PlanetTypeTundra, Size: PlanetSizeLarge, Anomaly:  , Population: 7 , typeWorth: 1.5 , anomalyWorth: 1 , Planet Worth: 73.5
+ }
+ And has total population: 11
+Total system worth: 984.5
+
+This system contains the following planets:{
+ Type: PlanetTypeTundra, Size: PlanetSizeMedium, Anomaly:  , Population: 5 , typeWorth: 1.5 , anomalyWorth: 1 , Planet Worth: 37.5
+Type: PlanetTypeTundra, Size: PlanetSizeSmall, Anomaly: PlanetAnomaly01 , Population: 4 , typeWorth: 1.5 , anomalyWorth: 2 , Planet Worth: 48
+Type: PlanetTypeGasMethane, Size: PlanetSizeHuge, Anomaly: PlanetAnomaly30 , Population: 4 , typeWorth: 0.5 , anomalyWorth: 0.666666666666667 , Planet Worth: 5.33333333333333
+ }
+ And has total population: 13
+Total system worth: 1180.83333333333
+
+This system contains the following planets:{
+ Type: PlanetTypeLava, Size: PlanetSizeLarge, Anomaly: PlanetAnomaly40 , Population: 4 , typeWorth: 0.666666666666667 , anomalyWorth: 0.5 , Planet Worth: 5.33333333333333
+Type: PlanetTypeArctic, Size: PlanetSizeSmall, Anomaly:  , Population: 3 , typeWorth: 1 , anomalyWorth: 1 , Planet Worth: 9
+Type: PlanetTypeTundra, Size: PlanetSizeSmall, Anomaly: PlanetAnomaly50 , Population: 4 , typeWorth: 1.5 , anomalyWorth: 0.5 , Planet Worth: 12
+Type: PlanetTypeBarren, Size: PlanetSizeMedium, Anomaly: PlanetAnomaly16 , Population: 3 , typeWorth: 0.666666666666667 , anomalyWorth: 1.5 , Planet Worth: 9
+Type: PlanetTypeTundra, Size: PlanetSizeSmall, Anomaly: PlanetAnomaly44 , Population: 4 , typeWorth: 1.5 , anomalyWorth: 0.5 , Planet Worth: 12
+Type: PlanetTypeTundra, Size: PlanetSizeMedium, Anomaly: PlanetAnomaly21 , Population: 5 , typeWorth: 1.5 , anomalyWorth: 1.5 , Planet Worth: 56.25
+ }
+ And has total population: 23
+Total system worth: 2382.41666666667
+
+This system contains the following planets:{
+ Type: PlanetTypeTundra, Size: PlanetSizeSmall, Anomaly:  , Population: 4 , typeWorth: 1.5 , anomalyWorth: 1 , Planet Worth: 24
+Type: PlanetTypeAsteroids, Size: PlanetSizeMedium, Anomaly: PlanetAnomaly18 , Population: 3 , typeWorth: 0.5 , anomalyWorth: 1.5 , Planet Worth: 6.75
+Type: PlanetTypeArid, Size: PlanetSizeMedium, Anomaly: PlanetAnomaly16 , Population: 5 , typeWorth: 1.5 , anomalyWorth: 1.5 , Planet Worth: 56.25
+ }
+ And has total population: 12
+Total system worth: 1044
+
+This system contains the following planets:{
+ Type: PlanetTypeArid, Size: PlanetSizeTiny, Anomaly: PlanetAnomaly48 , Population: 3 , typeWorth: 1.5 , anomalyWorth: 0.5 , Planet Worth: 6.75
+Type: PlanetTypeLava, Size: PlanetSizeHuge, Anomaly:  , Population: 4 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 10.6666666666667
+Type: PlanetTypeDesert, Size: PlanetSizeMedium, Anomaly: PlanetAnomaly37 , Population: 4 , typeWorth: 1 , anomalyWorth: 0.666666666666667 , Planet Worth: 10.6666666666667
+Type: PlanetTypeTundra, Size: PlanetSizeLarge, Anomaly:  , Population: 7 , typeWorth: 1.5 , anomalyWorth: 1 , Planet Worth: 73.5
+ }
+ And has total population: 18
+Total system worth: 1828.5
+
 ...Galaxy Generation Complete !
 4 systems with 6 planets
 8 systems with 4 planets
