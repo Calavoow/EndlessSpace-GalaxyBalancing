@@ -266,7 +266,11 @@ namespace Amplitude.GalaxyGenerator.Generation.Components
             }
             if (this.IsValid)
             {
-                this.IsValid = Balancing.Balancing.isBalanced();
+                if (!Balancing.Balancing.isBalanced())
+                {
+                    this.IsValid = false;
+                    System.Diagnostics.Trace.WriteLine("--Galaxy Imbalanced--");
+                }
             }
 
             if (!this.IsValid)

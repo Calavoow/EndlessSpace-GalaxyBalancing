@@ -90,8 +90,7 @@ namespace Amplitude.GalaxyGenerator.Generation.Balancing
         {
             return population()
                 * getPlanetTypeWorth(attachedPlanet.type)
-                * getAnomalyWorth(attachedPlanet.anomaly)
-                * getPlanetPopulation(attachedPlanet);
+                * getAnomalyWorth(attachedPlanet.anomaly);
         }
 
         private static void initPlanetPopulation()

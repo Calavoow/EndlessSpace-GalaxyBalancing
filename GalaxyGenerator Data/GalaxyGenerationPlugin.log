@@ -49,55 +49,108 @@ GalaxyTwinElliptical
 ...end of shapes manager contents cross-checking
 checking Configuration...
 Seed : 0
-Shape : Density/GalaxyTwinElliptical_Density.png
+Shape : Density/GalaxySpiral2_Density.png
 Empires : 4
-Galaxy size : GalaxySizeTiny
+Galaxy size : GalaxySizeMedium
 Galaxy age : GalaxyAgeNormal
 Galaxy density : GalaxyDensityMedium
-Constellations : 1
+Constellations : 2
 Star connectivity : 3
 Resources : ResourceRepartitionFactorNormal
-Expected population : 16
+Expected population : 48
 HomeWorldGenerators Count : 4
 ...end checking Configuration
 Generating Galaxy...
 StarBuilder - Execute - begin
-Generated 16 stars
+Generated 48 stars
 populate-end
 Black is R=0 G=0 B=0
 Colors found in regions pixmap :
+Color [A=255, R=1, G=1, B=1]
 Color [A=255, R=0, G=0, B=0]
-Color [A=255, R=0, G=0, B=255]
+Color [A=255, R=0, G=1, B=1]
+Color [A=255, R=255, G=0, B=255]
 Color [A=255, R=0, G=128, B=128]
 Color [A=255, R=255, G=255, B=0]
-Color [A=255, R=0, G=255, B=0]
+Color [A=255, R=0, G=0, B=255]
 Color [A=255, R=128, G=0, B=128]
-Color [A=255, R=255, G=0, B=0]
-Color [A=255, R=255, G=0, B=255]
-Color [A=255, R=255, G=255, B=255]
 Color [A=255, R=0, G=255, B=255]
+Color [A=255, R=255, G=255, B=255]
+Color [A=255, R=1, G=0, B=0]
+Color [A=255, R=1, G=0, B=1]
+Color [A=255, R=0, G=255, B=0]
+Color [A=255, R=255, G=0, B=0]
+Color [A=255, R=0, G=0, B=1]
+Color [A=255, R=0, G=1, B=0]
 StarBuilder - Execute - end
 ConstellationBuilder - Execute - begin
 9 theoretical regions
 9 actual regions
 8 spawn regions
--->Color [A=255, R=255, G=255, B=0] containing 2 stars
 -->Color [A=255, R=255, G=0, B=0] containing 4 stars
--->Color [A=255, R=255, G=0, B=255] containing 2 stars
--->Color [A=255, R=0, G=0, B=255] containing 2 stars
--->Color [A=255, R=0, G=255, B=255] containing 0 stars
--->Color [A=255, R=0, G=255, B=0] containing 2 stars
--->Color [A=255, R=0, G=128, B=128] containing 1 stars
--->Color [A=255, R=128, G=0, B=128] containing 1 stars
+-->Color [A=255, R=0, G=128, B=128] containing 5 stars
+-->Color [A=255, R=0, G=0, B=255] containing 6 stars
+-->Color [A=255, R=0, G=255, B=255] containing 5 stars
+-->Color [A=255, R=255, G=0, B=255] containing 6 stars
+-->Color [A=255, R=0, G=255, B=0] containing 4 stars
+-->Color [A=255, R=128, G=0, B=128] containing 4 stars
+-->Color [A=255, R=255, G=255, B=0] containing 1 stars
 1 neutral regions
--->Color [A=255, R=255, G=255, B=255] containing 2 stars
-Configuration requested constellations : 1
-Single Constellation
+-->Color [A=255, R=255, G=255, B=255] containing 13 stars
+Configuration requested constellations : 2
+Other Case
+No exact match
+Less Constellations than Spawn Regions
+Using topology to try grouping 4 Spawn Regions in each Constellation
+Merging regions :
+--->Color [A=255, R=0, G=255, B=0]
+--->Color [A=255, R=0, G=255, B=255]
+--->Color [A=255, R=0, G=128, B=128]
+--->Color [A=255, R=128, G=0, B=128]
+Try making 1 constellations with a total of 18 stars
+Make 1 constellations with a total of 18 stars
+Remaining 1 starved constellations !
+Remaining 1 starved constellations !
+Remaining 1 starved constellations !
+Remaining 1 starved constellations !
+Merging regions :
+--->Color [A=255, R=255, G=255, B=0]
+--->Color [A=255, R=255, G=0, B=0]
+--->Color [A=255, R=255, G=0, B=255]
+--->Color [A=255, R=0, G=0, B=255]
+Try making 1 constellations with a total of 17 stars
+Make 1 constellations with a total of 17 stars
+Remaining 1 starved constellations !
+Remaining 1 starved constellations !
+Remaining 1 starved constellations !
+Remaining 1 starved constellations !
+Merging remaining Spawn Regions with Neutral Regions
+and making remaining Constellations
+Aggregating 13 Stars to existing Constellations
+Aggregating 12 Stars to existing Constellations
+Aggregating 11 Stars to existing Constellations
+Aggregating 10 Stars to existing Constellations
+Aggregating 9 Stars to existing Constellations
+Aggregating 8 Stars to existing Constellations
+Aggregating 7 Stars to existing Constellations
+Aggregating 6 Stars to existing Constellations
+Aggregating 5 Stars to existing Constellations
+Aggregating 4 Stars to existing Constellations
+Aggregating 3 Stars to existing Constellations
+Aggregating 2 Stars to existing Constellations
+Aggregating 1 Stars to existing Constellations
 ConstellationBuilder - Execute - end
 WarpBuilder - Execute - begin
 Warp Builder - continuing
 Average connectivity down to 3
-Wormhole numbers down to 0
+Wormhole numbers down to 9
+Wormhole numbers down to 9
+Wormhole numbers down to 8
+Wormhole numbers down to 7
+Wormhole numbers down to 6
+Wormhole numbers down to 5
+Wormhole numbers down to 4
+Wormhole numbers down to 3
 Warp Builder Execute...Complete
 WarpBuilder - Execute - end
 SpawnBuilder - Execute - begin
@@ -108,191 +161,146 @@ PlanetBuilder - Execute - begin
 PlanetBuilder - Execute - end
 HomeBuilder - Execute - begin
 Applying Home Generator 0 - begin
-Applying Trait AffinityHissho
+Applying Trait AffinityAmoeba
 Applying Home Generator 0 - end
 Applying Home Generator 1 - begin
-Applying Trait AffinitySwarm
+Applying Trait AffinitySophon
 Applying Home Generator 1 - end
 Applying Home Generator 2 - begin
-Applying Trait AffinityHoratio
+Applying Trait AffinitySwarm
 Applying Home Generator 2 - end
 Applying Home Generator 3 - begin
-Applying Trait AffinitySophon
+Applying Trait AffinityHissho
 Applying Home Generator 3 - end
 HomeBuilder - Execute - end
 StrategicResourceBuilder - Execute - begin
 StrategicResourceBuilder - Execute - end
 LuxuryResourceBuilder - Execute - begin
 total luxes = 16
-number of lux types 4
-PlanetLuxury1 could not be spawned
-PlanetLuxury10 could not be spawned
-PlanetLuxury11 could not be spawned
+number of lux types 12
 PlanetLuxury12 could not be spawned
-PlanetLuxury14 could not be spawned
-PlanetLuxury15 could not be spawned
 PlanetLuxury16 could not be spawned
-PlanetLuxury2 could not be spawned
 PlanetLuxury3 could not be spawned
-PlanetLuxury5 could not be spawned
-PlanetLuxury7 could not be spawned
 PlanetLuxury8 could not be spawned
 Luxuries actually deposited - begin
+PlanetLuxury15
+PlanetLuxury5
+PlanetLuxury2
+PlanetLuxury11
+PlanetLuxury14
+PlanetLuxury10
 PlanetLuxury13
-PlanetLuxury6
 PlanetLuxury9
+PlanetLuxury1
+PlanetLuxury7
+PlanetLuxury6
 PlanetLuxury4
 Luxuries actually deposited - end
 LuxuryResourceBuilder - Execute - end
-This system contains the following planets:{
- Type: PlanetTypeArid, Size: PlanetSizeMedium, Anomaly:  , Population: 5 , typeWorth: 1.5 , anomalyWorth: 1 , Planet Worth: 37.5
-Type: PlanetTypeDesert, Size: PlanetSizeMedium, Anomaly:  , Population: 4 , typeWorth: 1 , anomalyWorth: 1 , Planet Worth: 16
-Type: PlanetTypeArctic, Size: PlanetSizeSmall, Anomaly:  , Population: 3 , typeWorth: 1 , anomalyWorth: 1 , Planet Worth: 9
-Type: PlanetTypeGasMethane, Size: PlanetSizeLarge, Anomaly:  , Population: 3 , typeWorth: 0.5 , anomalyWorth: 1 , Planet Worth: 4.5
-Type: PlanetTypeBarren, Size: PlanetSizeMedium, Anomaly:  , Population: 3 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 6
-Type: PlanetTypeLava, Size: PlanetSizeLarge, Anomaly:  , Population: 4 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 10.6666666666667
- }
- And has total population: 22
-Total system worth: 1840.66666666667
+SpawnStar: %StarName122
+Score: 3185.95770043588
 
-This system contains the following planets:{
- Type: PlanetTypeBarren, Size: PlanetSizeLarge, Anomaly: PlanetAnomaly40 , Population: 4 , typeWorth: 0.666666666666667 , anomalyWorth: 0.5 , Planet Worth: 5.33333333333333
-Type: PlanetTypeLava, Size: PlanetSizeMedium, Anomaly:  , Population: 3 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 6
-Type: PlanetTypeLava, Size: PlanetSizeSmall, Anomaly: PlanetAnomaly24 , Population: 2 , typeWorth: 0.666666666666667 , anomalyWorth: 0.666666666666667 , Planet Worth: 1.77777777777778
-Type: PlanetTypeArid, Size: PlanetSizeSmall, Anomaly: PlanetAnomaly04 , Population: 4 , typeWorth: 1.5 , anomalyWorth: 1.5 , Planet Worth: 36
- }
- And has total population: 13
-Total system worth: 638.444444444444
+SpawnStar: %StarName65
+Score: 1224.34785511968
 
-This system contains the following planets:{
- Type: PlanetTypeArid, Size: PlanetSizeMedium, Anomaly:  , Population: 5 , typeWorth: 1.5 , anomalyWorth: 1 , Planet Worth: 37.5
-Type: PlanetTypeAsteroids, Size: PlanetSizeTiny, Anomaly:  , Population: 1 , typeWorth: 0.5 , anomalyWorth: 1 , Planet Worth: 0.5
-Type: PlanetTypeBarren, Size: PlanetSizeLarge, Anomaly:  , Population: 4 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 10.6666666666667
-Type: PlanetTypeLava, Size: PlanetSizeMedium, Anomaly:  , Population: 3 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 6
- }
- And has total population: 13
-Total system worth: 710.666666666667
+SpawnStar: %StarName86
+Score: 1030.09757420971
 
-This system contains the following planets:{
- Type: PlanetTypeGasHydrogen, Size: PlanetSizeHuge, Anomaly:  , Population: 4 , typeWorth: 0.5 , anomalyWorth: 1 , Planet Worth: 8
-Type: PlanetTypeArctic, Size: PlanetSizeMedium, Anomaly:  , Population: 4 , typeWorth: 1 , anomalyWorth: 1 , Planet Worth: 16
-Type: PlanetTypeBarren, Size: PlanetSizeLarge, Anomaly: PlanetAnomaly49 , Population: 4 , typeWorth: 0.666666666666667 , anomalyWorth: 0.5 , Planet Worth: 5.33333333333333
-Type: PlanetTypeLava, Size: PlanetSizeMedium, Anomaly:  , Population: 3 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 6
- }
- And has total population: 15
-Total system worth: 530
+SpawnStar: %StarName187
+Score: 7079.15242579029
 
-This system contains the following planets:{
- Type: PlanetTypeArctic, Size: PlanetSizeMedium, Anomaly: PlanetAnomaly17 , Population: 4 , typeWorth: 1 , anomalyWorth: 1.5 , Planet Worth: 24
-Type: PlanetTypeGasHelium, Size: PlanetSizeHuge, Anomaly:  , Population: 4 , typeWorth: 0.5 , anomalyWorth: 1 , Planet Worth: 8
-Type: PlanetTypeOcean, Size: PlanetSizeLarge, Anomaly: PlanetAnomaly36 , Population: 8 , typeWorth: 2 , anomalyWorth: 0.666666666666667 , Planet Worth: 85.3333333333333
-Type: PlanetTypeBarren, Size: PlanetSizeMedium, Anomaly: PlanetAnomaly22 , Population: 3 , typeWorth: 0.666666666666667 , anomalyWorth: 0.666666666666667 , Planet Worth: 4
- }
- And has total population: 19
-Total system worth: 2305.33333333333
-
-This system contains the following planets:{
- Type: PlanetTypeDesert, Size: PlanetSizeMedium, Anomaly: PlanetAnomaly35 , Population: 4 , typeWorth: 1 , anomalyWorth: 0.666666666666667 , Planet Worth: 10.6666666666667
-Type: PlanetTypeJungle, Size: PlanetSizeMedium, Anomaly:  , Population: 6 , typeWorth: 2 , anomalyWorth: 1 , Planet Worth: 72
-Type: PlanetTypeArctic, Size: PlanetSizeMedium, Anomaly:  , Population: 4 , typeWorth: 1 , anomalyWorth: 1 , Planet Worth: 16
-Type: PlanetTypeDesert, Size: PlanetSizeMedium, Anomaly: PlanetAnomaly27 , Population: 4 , typeWorth: 1 , anomalyWorth: 0.666666666666667 , Planet Worth: 10.6666666666667
- }
- And has total population: 18
-Total system worth: 1968
-
-This system contains the following planets:{
- Type: PlanetTypeLava, Size: PlanetSizeSmall, Anomaly:  , Population: 2 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 2.66666666666667
-Type: PlanetTypeLava, Size: PlanetSizeSmall, Anomaly: PlanetAnomaly23 , Population: 2 , typeWorth: 0.666666666666667 , anomalyWorth: 0.666666666666667 , Planet Worth: 1.77777777777778
-Type: PlanetTypeBarren, Size: PlanetSizeSmall, Anomaly: PlanetAnomaly02 , Population: 2 , typeWorth: 0.666666666666667 , anomalyWorth: 1.5 , Planet Worth: 4
-Type: PlanetTypeLava, Size: PlanetSizeMedium, Anomaly: PlanetAnomaly37 , Population: 3 , typeWorth: 0.666666666666667 , anomalyWorth: 0.666666666666667 , Planet Worth: 4
- }
- And has total population: 9
-Total system worth: 112
-
-This system contains the following planets:{
- Type: PlanetTypeJungle, Size: PlanetSizeMedium, Anomaly:  , Population: 6 , typeWorth: 2 , anomalyWorth: 1 , Planet Worth: 72
-Type: PlanetTypeAsteroids, Size: PlanetSizeLarge, Anomaly:  , Population: 3 , typeWorth: 0.5 , anomalyWorth: 1 , Planet Worth: 4.5
-Type: PlanetTypeLava, Size: PlanetSizeLarge, Anomaly:  , Population: 4 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 10.6666666666667
-Type: PlanetTypeTundra, Size: PlanetSizeLarge, Anomaly:  , Population: 7 , typeWorth: 1.5 , anomalyWorth: 1 , Planet Worth: 73.5
-Type: PlanetTypeBarren, Size: PlanetSizeLarge, Anomaly:  , Population: 4 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 10.6666666666667
-Type: PlanetTypeBarren, Size: PlanetSizeMedium, Anomaly:  , Population: 3 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 6
- }
- And has total population: 27
-Total system worth: 4788
-
-This system contains the following planets:{
- Type: PlanetTypeLava, Size: PlanetSizeSmall, Anomaly:  , Population: 2 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 2.66666666666667
- }
- And has total population: 2
-Total system worth: 5.33333333333333
-
-This system contains the following planets:{
- Type: PlanetTypeTundra, Size: PlanetSizeSmall, Anomaly: PlanetAnomaly22 , Population: 4 , typeWorth: 1.5 , anomalyWorth: 0.666666666666667 , Planet Worth: 16
-Type: PlanetTypeJungle, Size: PlanetSizeLarge, Anomaly:  , Population: 8 , typeWorth: 2 , anomalyWorth: 1 , Planet Worth: 128
-Type: PlanetTypeTundra, Size: PlanetSizeSmall, Anomaly: PlanetAnomaly30 , Population: 4 , typeWorth: 1.5 , anomalyWorth: 0.666666666666667 , Planet Worth: 16
-Type: PlanetTypeArid, Size: PlanetSizeMedium, Anomaly:  , Population: 5 , typeWorth: 1.5 , anomalyWorth: 1 , Planet Worth: 37.5
- }
- And has total population: 21
-Total system worth: 4147.5
-
-This system contains the following planets:{
- Type: PlanetTypeTerran, Size: PlanetSizeMedium, Anomaly:  , Population: 6 , typeWorth: 2 , anomalyWorth: 1 , Planet Worth: 72
-Type: PlanetTypeLava, Size: PlanetSizeMedium, Anomaly:  , Population: 3 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 6
-Type: PlanetTypeGasHelium, Size: PlanetSizeHuge, Anomaly:  , Population: 4 , typeWorth: 0.5 , anomalyWorth: 1 , Planet Worth: 8
-Type: PlanetTypeAsteroids, Size: PlanetSizeLarge, Anomaly:  , Population: 3 , typeWorth: 0.5 , anomalyWorth: 1 , Planet Worth: 4.5
-Type: PlanetTypeBarren, Size: PlanetSizeSmall, Anomaly:  , Population: 2 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 2.66666666666667
-Type: PlanetTypeBarren, Size: PlanetSizeLarge, Anomaly:  , Population: 4 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 10.6666666666667
- }
- And has total population: 22
-Total system worth: 2284.33333333333
-
-This system contains the following planets:{
- Type: PlanetTypeArctic, Size: PlanetSizeMedium, Anomaly:  , Population: 4 , typeWorth: 1 , anomalyWorth: 1 , Planet Worth: 16
-Type: PlanetTypeTundra, Size: PlanetSizeLarge, Anomaly:  , Population: 7 , typeWorth: 1.5 , anomalyWorth: 1 , Planet Worth: 73.5
- }
- And has total population: 11
-Total system worth: 984.5
-
-This system contains the following planets:{
- Type: PlanetTypeTundra, Size: PlanetSizeMedium, Anomaly:  , Population: 5 , typeWorth: 1.5 , anomalyWorth: 1 , Planet Worth: 37.5
-Type: PlanetTypeTundra, Size: PlanetSizeSmall, Anomaly: PlanetAnomaly01 , Population: 4 , typeWorth: 1.5 , anomalyWorth: 2 , Planet Worth: 48
-Type: PlanetTypeGasMethane, Size: PlanetSizeHuge, Anomaly: PlanetAnomaly30 , Population: 4 , typeWorth: 0.5 , anomalyWorth: 0.666666666666667 , Planet Worth: 5.33333333333333
- }
- And has total population: 13
-Total system worth: 1180.83333333333
-
-This system contains the following planets:{
- Type: PlanetTypeLava, Size: PlanetSizeLarge, Anomaly: PlanetAnomaly40 , Population: 4 , typeWorth: 0.666666666666667 , anomalyWorth: 0.5 , Planet Worth: 5.33333333333333
-Type: PlanetTypeArctic, Size: PlanetSizeSmall, Anomaly:  , Population: 3 , typeWorth: 1 , anomalyWorth: 1 , Planet Worth: 9
-Type: PlanetTypeTundra, Size: PlanetSizeSmall, Anomaly: PlanetAnomaly50 , Population: 4 , typeWorth: 1.5 , anomalyWorth: 0.5 , Planet Worth: 12
-Type: PlanetTypeBarren, Size: PlanetSizeMedium, Anomaly: PlanetAnomaly16 , Population: 3 , typeWorth: 0.666666666666667 , anomalyWorth: 1.5 , Planet Worth: 9
-Type: PlanetTypeTundra, Size: PlanetSizeSmall, Anomaly: PlanetAnomaly44 , Population: 4 , typeWorth: 1.5 , anomalyWorth: 0.5 , Planet Worth: 12
-Type: PlanetTypeTundra, Size: PlanetSizeMedium, Anomaly: PlanetAnomaly21 , Population: 5 , typeWorth: 1.5 , anomalyWorth: 1.5 , Planet Worth: 56.25
- }
- And has total population: 23
-Total system worth: 2382.41666666667
-
-This system contains the following planets:{
- Type: PlanetTypeTundra, Size: PlanetSizeSmall, Anomaly:  , Population: 4 , typeWorth: 1.5 , anomalyWorth: 1 , Planet Worth: 24
-Type: PlanetTypeAsteroids, Size: PlanetSizeMedium, Anomaly: PlanetAnomaly18 , Population: 3 , typeWorth: 0.5 , anomalyWorth: 1.5 , Planet Worth: 6.75
-Type: PlanetTypeArid, Size: PlanetSizeMedium, Anomaly: PlanetAnomaly16 , Population: 5 , typeWorth: 1.5 , anomalyWorth: 1.5 , Planet Worth: 56.25
- }
- And has total population: 12
-Total system worth: 1044
-
-This system contains the following planets:{
- Type: PlanetTypeArid, Size: PlanetSizeTiny, Anomaly: PlanetAnomaly48 , Population: 3 , typeWorth: 1.5 , anomalyWorth: 0.5 , Planet Worth: 6.75
-Type: PlanetTypeLava, Size: PlanetSizeHuge, Anomaly:  , Population: 4 , typeWorth: 0.666666666666667 , anomalyWorth: 1 , Planet Worth: 10.6666666666667
-Type: PlanetTypeDesert, Size: PlanetSizeMedium, Anomaly: PlanetAnomaly37 , Population: 4 , typeWorth: 1 , anomalyWorth: 0.666666666666667 , Planet Worth: 10.6666666666667
-Type: PlanetTypeTundra, Size: PlanetSizeLarge, Anomaly:  , Population: 7 , typeWorth: 1.5 , anomalyWorth: 1 , Planet Worth: 73.5
- }
- And has total population: 18
-Total system worth: 1828.5
-
-...Galaxy Generation Complete !
-4 systems with 6 planets
-8 systems with 4 planets
-1 systems with 1 planets
-1 systems with 2 planets
-2 systems with 3 planets
-Average 4.0625 planets per system
+--Galaxy Imbalanced--
+--Galaxy generation failed--
+--Generation defects summary--
+LuxuryResourceBuilder -> PlanetLuxury12 could not be spawned
+LuxuryResourceBuilder -> PlanetLuxury16 could not be spawned
+LuxuryResourceBuilder -> PlanetLuxury3 could not be spawned
+LuxuryResourceBuilder -> PlanetLuxury8 could not be spawned
+--Generation defects end--
+Generating Galaxy...
+StarBuilder - Execute - begin
+Generated 48 stars
+populate-end
+Black is R=0 G=0 B=0
+Colors found in regions pixmap :
+Color [A=255, R=255, G=0, B=255]
+Color [A=255, R=255, G=255, B=255]
+Color [A=255, R=255, G=255, B=0]
+Color [A=255, R=0, G=128, B=128]
+Color [A=255, R=0, G=1, B=0]
+Color [A=255, R=1, G=1, B=1]
+Color [A=255, R=128, G=0, B=128]
+Color [A=255, R=0, G=0, B=255]
+Color [A=255, R=0, G=255, B=255]
+Color [A=255, R=255, G=0, B=0]
+Color [A=255, R=0, G=0, B=1]
+Color [A=255, R=0, G=1, B=1]
+Color [A=255, R=0, G=255, B=0]
+Color [A=255, R=1, G=0, B=0]
+Color [A=255, R=0, G=0, B=0]
+Color [A=255, R=1, G=0, B=1]
+StarBuilder - Execute - end
+ConstellationBuilder - Execute - begin
+9 theoretical regions
+9 actual regions
+8 spawn regions
+-->Color [A=255, R=255, G=0, B=0] containing 7 stars
+-->Color [A=255, R=0, G=128, B=128] containing 5 stars
+-->Color [A=255, R=0, G=0, B=255] containing 2 stars
+-->Color [A=255, R=0, G=255, B=255] containing 2 stars
+-->Color [A=255, R=255, G=0, B=255] containing 6 stars
+-->Color [A=255, R=0, G=255, B=0] containing 6 stars
+-->Color [A=255, R=128, G=0, B=128] containing 5 stars
+-->Color [A=255, R=255, G=255, B=0] containing 5 stars
+1 neutral regions
+-->Color [A=255, R=255, G=255, B=255] containing 10 stars
+Configuration requested constellations : 2
+Other Case
+No exact match
+Less Constellations than Spawn Regions
+Using topology to try grouping 4 Spawn Regions in each Constellation
+Merging regions :
+--->Color [A=255, R=128, G=0, B=128]
+--->Color [A=255, R=0, G=128, B=128]
+--->Color [A=255, R=0, G=255, B=0]
+--->Color [A=255, R=0, G=255, B=255]
+Try making 1 constellations with a total of 18 stars
+Make 1 constellations with a total of 18 stars
+Remaining 1 starved constellations !
+Remaining 1 starved constellations !
+Remaining 1 starved constellations !
+Remaining 1 starved constellations !
+Merging regions :
+--->Color [A=255, R=255, G=255, B=0]
+--->Color [A=255, R=255, G=0, B=0]
+--->Color [A=255, R=255, G=0, B=255]
+--->Color [A=255, R=0, G=0, B=255]
+Try making 1 constellations with a total of 20 stars
+Make 1 constellations with a total of 20 stars
+Remaining 1 starved constellations !
+Remaining 1 starved constellations !
+Remaining 1 starved constellations !
+Remaining 1 starved constellations !
+Merging remaining Spawn Regions with Neutral Regions
+and making remaining Constellations
+Aggregating 10 Stars to existing Constellations
+Aggregating 9 Stars to existing Constellations
+Aggregating 8 Stars to existing Constellations
+Aggregating 7 Stars to existing Constellations
+Aggregating 6 Stars to existing Constellations
+Aggregating 5 Stars to existing Constellations
+Aggregating 4 Stars to existing Constellations
+Aggregating 3 Stars to existing Constellations
+Aggregating 2 Stars to existing Constellations
+Aggregating 1 Stars to existing Constellations
+ConstellationBuilder - Execute - end
+WarpBuilder - Execute - begin
+Warp Builder - continuing
+Exception caught: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Amplitude.GalaxyGenerator.Generation.Builders.WarpBuilder.FullyConnected() in C:\Users\Eddie\Documents\GitHub\EndlessSpace-GalaxyBalancing\GalaxyGenerator Sources\Amplitude.GalaxyGenerator\Generation\Builders\WarpBuilder.cs:line 249
+   at Amplitude.GalaxyGenerator.Generation.Builders.WarpBuilder.DetermineNonCriticalWarps(List`1& nonCrit) in C:\Users\Eddie\Documents\GitHub\EndlessSpace-GalaxyBalancing\GalaxyGenerator Sources\Amplitude.GalaxyGenerator\Generation\Builders\WarpBuilder.cs:line 501
+   at Amplitude.GalaxyGenerator.Generation.Builders.WarpBuilder.ReduceConnectivity() in C:\Users\Eddie\Documents\GitHub\EndlessSpace-GalaxyBalancing\GalaxyGenerator Sources\Amplitude.GalaxyGenerator\Generation\Builders\WarpBuilder.cs:line 477
+   at Amplitude.GalaxyGenerator.Generation.Builders.WarpBuilder.Execute() in C:\Users\Eddie\Documents\GitHub\EndlessSpace-GalaxyBalancing\GalaxyGenerator Sources\Amplitude.GalaxyGenerator\Generation\Builders\WarpBuilder.cs:line 62
+   at Amplitude.GalaxyGenerator.Generation.Components.Galaxy..ctor(Configuration configuration) in C:\Users\Eddie\Documents\GitHub\EndlessSpace-GalaxyBalancing\GalaxyGenerator Sources\Amplitude.GalaxyGenerator\Generation\Components\Galaxy.cs:line 263
+   at Amplitude.GalaxyGenerator.Generation.Components.Galaxy.Generate(Configuration configuration) in C:\Users\Eddie\Documents\GitHub\EndlessSpace-GalaxyBalancing\GalaxyGenerator Sources\Amplitude.GalaxyGenerator\Generation\Components\Galaxy.cs:line 18
+   at GalaxyGeneratorPlugin.Generate(String pathToSettingsFile, String pathToShapesFile, String pathToConfigurationFile, String pathToOutputFile, Int32 seed) in C:\Users\Eddie\Documents\GitHub\EndlessSpace-GalaxyBalancing\GalaxyGenerator Sources\Amplitude.GalaxyGenerator\GalaxyGeneratorPlugin.cs:line 56

@@ -40,6 +40,7 @@
     <Compile Include="GalaxyGeneratorPlugin.cs" />
     <Compile Include="Generation\Balancing\Balancing.cs" />
     <Compile Include="Generation\Balancing\BalancingGalaxy.cs" />
+    <Compile Include="Generation\Balancing\BalancingPlayer.cs" />
     <Compile Include="Generation\Balancing\BalancingStarSystem.cs" />
     <Compile Include="Generation\Balancing\BalancingPlanet.cs" />
     <Compile Include="Generation\Builders\Builder.cs" />

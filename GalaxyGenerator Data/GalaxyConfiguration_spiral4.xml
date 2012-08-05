@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <GenerationSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <GalaxyShape>GalaxySpiral2</GalaxyShape>
+  <GalaxyShape>GalaxySpiral4</GalaxyShape>
   <GalaxySize>GalaxySizeMedium</GalaxySize>
   <EmpiresNumber>4</EmpiresNumber>
   <GalaxyAge>GalaxyAgeNormal</GalaxyAge>
@@ -14,39 +14,32 @@
   <ResourceRepartitionFactor>ResourceRepartitionFactorNormal</ResourceRepartitionFactor>
   <HomeGeneration>
     <Empire>
-      <Trait Name="AffinityAmoeba" />
-      <Trait Name="TraitTechT01" />
-      <Trait Name="TraitAlignmentGood" />
-      <Trait Name="TraitDiplomacy01Norm2" />
-      <Trait Name="TraitDiplomacy02Norm2" />
-      <Trait Name="TraitDiplomacy03Norm1" />
-      <Trait Name="TraitFleet06Norm2" />
-      <Trait Name="TraitSpaceBattle05Norm2" />
-      <Trait Name="TraitAnomaly03Norm1" />
-    </Empire>
-    <Empire>
       <Trait Name="AffinitySophon" />
-      <Trait Name="TraitTechA01" />
-      <Trait Name="TraitTechA03" />
-      <Trait Name="TraitTechA04" />
-      <Trait Name="TraitAlignmentGood" />
-      <Trait Name="TraitScience01Norm3" />
-      <Trait Name="TraitFleet01Norm2" />
-      <Trait Name="TraitFleet07Norm1" />
+      <Trait Name="TraitAlignmentEvil" />
       <Trait Name="TraitDefense01Alt2" />
-      <Trait Name="TraitBuilding01Alt1" />
-      <Trait Name="TraitRandomFaction" />
+      <Trait Name="TraitPopulation04Norm2" />
+      <Trait Name="TraitAnomaly03Norm1" />
+      <Trait Name="TraitHero01Alt2" />
+      <Trait Name="TraitFleet01Norm1" />
+      <Trait Name="TraitEconomy07Norm1" />
+      <Trait Name="TraitDiplomacy01Norm2" />
+      <Trait Name="TraitEconomy02Norm2" />
+      <Trait Name="TraitDiplomacy04Norm1" />
+      <Trait Name="TraitScience01Norm2" />
+      <Trait Name="TraitBuilding02Alt1" />
+      <Trait Name="TraitPopulation03Norm1" />
     </Empire>
     <Empire>
-      <Trait Name="AffinitySwarm" />
-      <Trait Name="TraitTechE01" />
-      <Trait Name="TraitTechG02" />
-      <Trait Name="TraitAlignmentEvil" />
-      <Trait Name="TraitBuilding02Norm2" />
-      <Trait Name="TraitSpaceBattle07Norm2" />
-      <Trait Name="TraitFleet02Norm2" />
-      <Trait Name="TraitPopulation04Norm1" />
-      <Trait Name="TraitDiplomacy04Norm1" />
+      <Trait Name="AffinitySower" />
+      <Trait Name="TraitTechE27" />
+      <Trait Name="TraitAlignmentNeutral" />
+      <Trait Name="TraitAnomaly05Norm1" />
+      <Trait Name="TraitScience01Alt2" />
+      <Trait Name="TraitBuilding01Norm2" />
+      <Trait Name="TraitScience03VisibleNorm2" />
+      <Trait Name="TraitScience03Norm2" />
+      <Trait Name="TraitSpaceBattle01Norm1" />
+      <Trait Name="TraitFleet01Alt1" />
       <Trait Name="TraitRandomFaction" />
     </Empire>
     <Empire>
@@ -60,6 +53,18 @@
       <Trait Name="TraitBuilding03Norm2" />
       <Trait Name="TraitHero04Norm2" />
       <Trait Name="TraitScience01Alt2" />
+      <Trait Name="TraitRandomFaction" />
+    </Empire>
+    <Empire>
+      <Trait Name="AffinitySwarm" />
+      <Trait Name="TraitTechE01" />
+      <Trait Name="TraitTechG02" />
+      <Trait Name="TraitAlignmentEvil" />
+      <Trait Name="TraitBuilding02Norm2" />
+      <Trait Name="TraitSpaceBattle07Norm2" />
+      <Trait Name="TraitFleet02Norm2" />
+      <Trait Name="TraitPopulation04Norm1" />
+      <Trait Name="TraitDiplomacy04Norm1" />
       <Trait Name="TraitRandomFaction" />
     </Empire>
   </HomeGeneration>

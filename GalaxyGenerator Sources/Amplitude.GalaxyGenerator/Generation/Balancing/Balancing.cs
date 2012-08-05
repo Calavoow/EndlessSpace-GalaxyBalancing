@@ -11,23 +11,37 @@ namespace Amplitude.GalaxyGenerator.Generation.Balancing
         public static bool isBalanced()
         {
             Balancing balancing = new Balancing(Galaxy.Instance);
-            foreach (StarSystem spawnStar in Galaxy.Instance.SpawnStars)
+            List<BalancingPlayer> players = balancing.balancingGalaxy.playerScores();
+            foreach (BalancingPlayer player in players)
             {
-                balancing.playerScore(spawnStar);
-            }           
-            return true;
+                System.Diagnostics.Trace.WriteLine(player);
+            }
+            double standardDev = CalculateStdDev(players.Select(player => player.score));
+            return standardDev < 1000;
         }
 
         private BalancingGalaxy balancingGalaxy;
+        private static double MAX_DEVIATION = 1000;
 
         private Balancing(Galaxy gal)
         {
             balancingGalaxy = new BalancingGalaxy(gal);
         }
 
-        private double playerScore(StarSystem spawnStar)
+        public static double CalculateStdDev(IEnumerable<double> values)
         {
-            return 0.0;
+            double ret = 0;
+            if (values.Count() > 0)
+            {
+                //Compute the Average      
+                double avg = values.Average();
+                //Perform the Sum of (value-avg)_2_2      
+                double sum = values.Sum(d => Math.Pow(d - avg, 2));
+                //Put it all together      
+                ret = Math.Sqrt((sum) / (values.Count() - 1));
+            }
+            return ret;
         }
+
     }
 }
