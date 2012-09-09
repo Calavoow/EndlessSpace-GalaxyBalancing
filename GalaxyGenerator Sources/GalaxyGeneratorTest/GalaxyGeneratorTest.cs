@@ -30,7 +30,6 @@ namespace GalaxyGeneratorTest
                                         pathToConfigurationFile,
                                         pathToOutputFile,
                                         seed);
-
         }
     }
 }

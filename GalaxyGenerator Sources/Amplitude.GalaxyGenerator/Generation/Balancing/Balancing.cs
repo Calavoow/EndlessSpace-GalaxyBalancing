@@ -17,7 +17,7 @@ namespace Amplitude.GalaxyGenerator.Generation.Balancing
                 System.Diagnostics.Trace.WriteLine(player);
             }
             double standardDev = CalculateStdDev(players.Select(player => player.score));
-            return standardDev < 1000;
+            return standardDev < MAX_DEVIATION;
         }
 
         private BalancingGalaxy balancingGalaxy;

@@ -45,17 +45,25 @@ public static class GalaxyGeneratorPlugin
             {
                 long ticks = System.DateTime.Now.Ticks;
                 configuration.seed = System.Math.Abs((int)ticks);
+                //configuration.seed = generateSeed();
             }
 
             GalaxyGeneratorPlugin.random = new System.Random(configuration.seed);
 
             do
             {
+                System.Diagnostics.Trace.WriteLine("Using seed: " + configuration.seed);
                 Galaxy.Release();
                 System.Diagnostics.Trace.WriteLine("Generating Galaxy...");
                 Galaxy.Generate(configuration);
+                if (!Galaxy.Instance.IsValid)
+                {
+                    configuration.seed = generateSeed();
+                    GalaxyGeneratorPlugin.random = new System.Random(configuration.seed);
+                }
             }
             while (!Galaxy.Instance.IsValid);
+
             System.Diagnostics.Trace.WriteLine("...Galaxy Generation Complete !");
 
             System.Xml.XmlWriterSettings xmlWriterSettings = new System.Xml.XmlWriterSettings()
@@ -102,5 +110,11 @@ public static class GalaxyGeneratorPlugin
 #endif
             System.Diagnostics.Trace.Close();
         }
+    }
+
+    private static int generateSeed()
+    {
+        long ticks = System.DateTime.Now.Ticks;
+        return System.Math.Abs((int)ticks);
     }
 }

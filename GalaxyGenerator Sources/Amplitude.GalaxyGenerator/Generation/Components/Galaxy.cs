@@ -288,7 +288,7 @@ namespace Amplitude.GalaxyGenerator.Generation.Components
             }
         }
 
-        ~Galaxy() { Instance = null; this.Configuration.ResetNames(); this.Planets.Clear(); }
+        //~Galaxy() { Instance = null; this.Configuration.ResetNames(); this.Planets.Clear(); }
 /*
         private void distributeLuxuryResources()
         {
